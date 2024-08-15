@@ -13,3 +13,6 @@
 [submodule "Unity-FeedbackModule"]
 	path = Assets/Modules/Unity-FeedbackModule
 	url = https://github.com/GKGameStudio/Unity-FeedbackModule.git
+[submodule "Unity-SkillAPIModule"]
+	path = Assets/Modules/Unity-SkillAPIModule
+	url = https://github.com/GKGameStudio/Unity-SkillAPIModule.git

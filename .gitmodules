@@ -1,0 +1,15 @@
+[submodule "Unity-GKCore"]
+	path = Assets/Modules/Unity-GKCore
+	url = https://github.com/GKGameStudio/Unity-GKCore.git
+[submodule "Unity-CameraFilterModule"]
+	path = Assets/Modules/Unity-CameraFilterModule
+	url = https://github.com/GKGameStudio/Unity-CameraFilterModule.git
+[submodule "Unity-SpawnerModule"]
+	path = Assets/Modules/Unity-SpawnerModule
+	url = https://github.com/GKGameStudio/Unity-SpawnerModule.git
+[submodule "Unity-HealthModule"]
+	path = Assets/Modules/Unity-HealthModule
+	url = https://github.com/GKGameStudio/Unity-HealthModule.git
+[submodule "Unity-FeedbackModule"]
+	path = Assets/Modules/Unity-FeedbackModule
+	url = https://github.com/GKGameStudio/Unity-FeedbackModule.git

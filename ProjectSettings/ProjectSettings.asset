@@ -803,7 +803,24 @@ PlayerSettings:
   webGLMemoryGeometricGrowthStep: 0.2
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: DOOZY_REACTOR;DOOZY_UIMANAGER;DOOZY_SIGNALS
+    EmbeddedLinux: DOOZY_REACTOR;DOOZY_UIMANAGER;DOOZY_SIGNALS
+    GameCoreScarlett: DOOZY_REACTOR;DOOZY_UIMANAGER;DOOZY_SIGNALS
+    GameCoreXboxOne: DOOZY_REACTOR;DOOZY_UIMANAGER;DOOZY_SIGNALS
+    LinuxHeadlessSimulation: DOOZY_REACTOR;DOOZY_UIMANAGER;DOOZY_SIGNALS
+    Nintendo Switch: DOOZY_REACTOR;DOOZY_UIMANAGER;DOOZY_SIGNALS
+    PS4: DOOZY_REACTOR;DOOZY_UIMANAGER;DOOZY_SIGNALS
+    PS5: DOOZY_REACTOR;DOOZY_UIMANAGER;DOOZY_SIGNALS
+    QNX: DOOZY_REACTOR;DOOZY_UIMANAGER;DOOZY_SIGNALS
+    Stadia: DOOZY_REACTOR;DOOZY_UIMANAGER;DOOZY_SIGNALS
+    Standalone: UEE;MOREMOUNTAINS_NICEVIBRATIONS_INSTALLED;ODIN_INSPECTOR;ODIN_INSPECTOR_3;ODIN_INSPECTOR_3_1;VISUAL_SCRIPTING;DOOZY_REACTOR;DOOZY_UIMANAGER;DOOZY_SIGNALS
+    VisionOS: DOOZY_REACTOR;DOOZY_UIMANAGER;DOOZY_SIGNALS
+    WebGL: DOOZY_REACTOR;DOOZY_UIMANAGER;DOOZY_SIGNALS
+    Windows Store Apps: DOOZY_REACTOR;DOOZY_UIMANAGER;DOOZY_SIGNALS
+    XboxOne: DOOZY_REACTOR;DOOZY_UIMANAGER;DOOZY_SIGNALS
+    iPhone: DOOZY_REACTOR;DOOZY_UIMANAGER;DOOZY_SIGNALS
+    tvOS: DOOZY_REACTOR;DOOZY_UIMANAGER;DOOZY_SIGNALS
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
@@ -908,8 +925,8 @@ PlayerSettings:
   embeddedLinuxEnableGamepadInput: 1
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
-  apiCompatibilityLevel: 6
-  activeInputHandler: 0
+  apiCompatibilityLevel: 3
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 52aaaf0f-04ed-4132-a650-8de79734ddba
   framebufferDepthMemorylessMode: 0

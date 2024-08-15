@@ -75,6 +75,34 @@ MonoBehaviour:
   rounded:
     m_OverrideState: 0
     m_Value: 0
+--- !u!114 &-5515815274476535589
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 877fd545cff4205419055662e62e7c39, type: 3}
+  m_Name: MonochromeVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  Active:
+    m_OverrideState: 1
+    m_Value: 1
+  When:
+    m_OverrideState: 0
+    m_Value: 500
+  Scale:
+    m_OverrideState: 0
+    m_Value: 0
+  ColorLight:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  ColorDark:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,6 +121,9 @@ MonoBehaviour:
   - {fileID: -7011558710299706105}
   - {fileID: 7915031234387855458}
   - {fileID: 6394300561049057433}
+  - {fileID: 4245872189184734181}
+  - {fileID: 6988899034536385457}
+  - {fileID: -5515815274476535589}
 --- !u!114 &849379129802519247
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -133,6 +164,34 @@ MonoBehaviour:
   maxNits:
     m_OverrideState: 0
     m_Value: 1000
+--- !u!114 &4245872189184734181
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 745dbe63215d76041a5b631c8de9de3d, type: 3}
+  m_Name: CartoonVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  Active:
+    m_OverrideState: 1
+    m_Value: 1
+  When:
+    m_OverrideState: 0
+    m_Value: 500
+  Lines:
+    m_OverrideState: 1
+    m_Value: 5.9
+  ColorLight:
+    m_OverrideState: 0
+    m_Value: {r: 1, g: 1, b: 1, a: 1}
+  ColorDark:
+    m_OverrideState: 0
+    m_Value: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &6394300561049057433
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -147,12 +206,47 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   mode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   amount:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.198
   shader: {fileID: 4800000, guid: 2270ba0b69c63bc459598cad50f09a1d, type: 3}
+--- !u!114 &6988899034536385457
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9552dc531ee036d499efc8422245ab19, type: 3}
+  m_Name: GlitchVolume
+  m_EditorClassIdentifier: 
+  active: 1
+  Active:
+    m_OverrideState: 1
+    m_Value: 1
+  When:
+    m_OverrideState: 0
+    m_Value: 500
+  Noise:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+    dimension: 1
+  Size:
+    m_OverrideState: 1
+    m_Value: 21.1
+  BlockDensity:
+    m_OverrideState: 1
+    m_Value: 0.362
+  LineDensity:
+    m_OverrideState: 1
+    m_Value: 0.336
+  Speed:
+    m_OverrideState: 1
+    m_Value: 2.6
 --- !u!114 &7915031234387855458
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -165,7 +259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fae979ba049e535429dde8ab92b28488, type: 3}
   m_Name: Scanlines
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   intensity:
     m_OverrideState: 1
     m_Value: 0.276

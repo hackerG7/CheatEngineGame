@@ -1,0 +1,1086 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8876756017399727630
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6612023038628985195}
+  - component: {fileID: 901221771226638079}
+  - component: {fileID: 5246856966212730036}
+  m_Layer: 0
+  m_Name: Letter Builder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6612023038628985195
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8876756017399727630}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 5946611843062515413}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &901221771226638079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8876756017399727630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eda20c3eb89aff947b5a6d710e9e610c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  letterPrefab: {fileID: 1515431116749829920, guid: 86d39f5a64ef4844cae580a766d86c18,
+    type: 3}
+  currentString:
+    _value: 0
+    onChanged:
+      _PersistentCalls:
+      - _Target: {fileID: 0}
+        _MemberName: GKExtensions, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+          PublicKeyToken=null.ToFloat
+        _PersistentArguments:
+        - _Type: 14
+          _Int: 1
+          _String: System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 534857152067996342}
+        _MemberName: SetValue
+        _PersistentArguments:
+        - _Type: 15
+          _Int: 0
+          _String: 
+          _X: 5
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+  isRebuilding: 0
+--- !u!114 &5246856966212730036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8876756017399727630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5260f31b0f5c2c4f982fe6cd52e14a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  world: {fileID: 11400000, guid: 16a64456518e7194a9e13e09864f4008, type: 2}
+  counterparts:
+    dictionary:
+      keys:
+      - {fileID: 11400000, guid: 16a64456518e7194a9e13e09864f4008, type: 2}
+      - {fileID: 11400000, guid: a1d91c28665f5ab4184587abc41294bb, type: 2}
+      values:
+      - {fileID: 5246856966212730036}
+      - {fileID: 3328940860604817578}
+    cachedChanges: []
+  dragTheCounterpartHereToEntangle:
+    _value: {fileID: 0}
+    onChanged:
+      _PersistentCalls:
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+  syncSiblingIndex: 1
+  resetLocalPosition: 1
+--- !u!1 &8932708741182799683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5946611843062515413}
+  - component: {fileID: 534857152067996342}
+  - component: {fileID: 4650560528503569141}
+  - component: {fileID: 8635349736293095731}
+  m_Layer: 0
+  m_Name: Stat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5946611843062515413
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8932708741182799683}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6612023038628985195}
+  - {fileID: 3569132879894647780}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &534857152067996342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8932708741182799683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ea2244452f3e6f4d8c279a9ae2b78a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runChangeEventOnStart: 1
+  observableVar:
+    _value: 0
+    onChanged:
+      _PersistentCalls:
+      - _Target: {fileID: 0}
+        _MemberName: GKExtensions, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+          PublicKeyToken=null.ToString
+        _PersistentArguments:
+        - _Type: 14
+          _Int: 1
+          _String: System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 901221771226638079}
+        _MemberName: SetCurrentString
+        _PersistentArguments:
+        - _Type: 15
+          _Int: 0
+          _String: 
+          _X: 2
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+    flat: 0
+    multiplier: 1
+    amplifier: 1
+    linkedFLatFloatStats: []
+    linkedMultiplierFloatStats: []
+    linkedAmplifierFloatStats: []
+  statId: {fileID: 0}
+--- !u!114 &4650560528503569141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8932708741182799683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 304181a337390d14abdd49520b4f8020, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runChangeEventOnStart: 1
+  observableVar:
+    _value: {fileID: 1956088006521701875, guid: bddd6d6c556c4a341a2e7a6045720d81,
+      type: 3}
+    onChanged:
+      _PersistentCalls: []
+--- !u!114 &8635349736293095731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8932708741182799683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5260f31b0f5c2c4f982fe6cd52e14a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  world: {fileID: 11400000, guid: 16a64456518e7194a9e13e09864f4008, type: 2}
+  counterparts:
+    dictionary:
+      keys:
+      - {fileID: 11400000, guid: 16a64456518e7194a9e13e09864f4008, type: 2}
+      - {fileID: 11400000, guid: a1d91c28665f5ab4184587abc41294bb, type: 2}
+      values:
+      - {fileID: 8635349736293095731}
+      - {fileID: 5689622890759398506}
+    cachedChanges: []
+  dragTheCounterpartHereToEntangle:
+    _value: {fileID: 0}
+    onChanged:
+      _PersistentCalls:
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+  syncSiblingIndex: 0
+  resetLocalPosition: 1
+--- !u!1001 &3047936423727572294
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5946611843062515413}
+    m_Modifications:
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: counterparts.dictionary.keys.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: counterparts.dictionary.values.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: counterparts.dictionary.keys.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: a1d91c28665f5ab4184587abc41294bb,
+        type: 2}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: counterparts.dictionary.keys.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 16a64456518e7194a9e13e09864f4008,
+        type: 2}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: counterparts.dictionary.values.Array.data[0]
+      value: 
+      objectReference: {fileID: 3328940860604817578}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: counterparts.dictionary.values.Array.data[1]
+      value: 
+      objectReference: {fileID: 5246856966212730036}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[2]._MemberName
+      value: OnDragTheCounterpartHereToEntangleChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[3]._MemberName
+      value: OnDragTheCounterpartHereToEntangleChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[4]._MemberName
+      value: OnDragTheCounterpartHereToEntangleChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[5]._MemberName
+      value: OnDragTheCounterpartHereToEntangleChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[2]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[3]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[4]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[5]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[2]._PersistentArguments.Array.data[0]._Type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[2]._PersistentArguments.Array.data[1]._Type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[3]._PersistentArguments.Array.data[0]._Type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[3]._PersistentArguments.Array.data[1]._Type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[4]._PersistentArguments.Array.data[0]._Type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[4]._PersistentArguments.Array.data[1]._Type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[5]._PersistentArguments.Array.data[0]._Type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[5]._PersistentArguments.Array.data[1]._Type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[2]._PersistentArguments.Array.data[0]._String
+      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[2]._PersistentArguments.Array.data[1]._String
+      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[3]._PersistentArguments.Array.data[0]._String
+      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[3]._PersistentArguments.Array.data[1]._String
+      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[4]._PersistentArguments.Array.data[0]._String
+      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[4]._PersistentArguments.Array.data[1]._String
+      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[5]._PersistentArguments.Array.data[0]._String
+      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[5]._PersistentArguments.Array.data[1]._String
+      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5460357029538964444, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_ChildAlignment
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5460357029538964444, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_ChildScaleWidth
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5460357029538964444, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_ChildScaleHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5460357029538964444, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_ChildControlWidth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5460357029538964444, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_ChildControlHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5460357029538964444, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_ChildForceExpandWidth
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5460357029538964444, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_ChildForceExpandHeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6068237625225086989, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6068237625225086989, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6068237625225086989, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6068237625225086989, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7986151798289104524, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 4650560528503569141}
+    - target: {fileID: 8816996463208032130, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_Name
+      value: Stat UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980380667435465254, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980380667435465254, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980380667435465254, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8980380667435465254, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8816996463208032130, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5689622890759398506}
+  m_SourcePrefab: {fileID: 100100000, guid: 920647ee513e59640a349dfb28fb4f7d, type: 3}
+--- !u!114 &3328940860604817578 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3047936423727572294}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5260f31b0f5c2c4f982fe6cd52e14a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!224 &3569132879894647780 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3047936423727572294}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &5769165646283817668 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8816996463208032130, guid: 920647ee513e59640a349dfb28fb4f7d,
+    type: 3}
+  m_PrefabInstance: {fileID: 3047936423727572294}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5689622890759398506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5769165646283817668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5260f31b0f5c2c4f982fe6cd52e14a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  world: {fileID: 11400000, guid: a1d91c28665f5ab4184587abc41294bb, type: 2}
+  counterparts:
+    dictionary:
+      keys:
+      - {fileID: 11400000, guid: 16a64456518e7194a9e13e09864f4008, type: 2}
+      - {fileID: 11400000, guid: a1d91c28665f5ab4184587abc41294bb, type: 2}
+      values:
+      - {fileID: 8635349736293095731}
+      - {fileID: 5689622890759398506}
+    cachedChanges: []
+  dragTheCounterpartHereToEntangle:
+    _value: {fileID: 0}
+    onChanged:
+      _PersistentCalls:
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+  syncSiblingIndex: 0
+  resetLocalPosition: 1

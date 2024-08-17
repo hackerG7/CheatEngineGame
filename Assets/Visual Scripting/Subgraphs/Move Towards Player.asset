@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Move Towards Player
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"input","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"output","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":{"$content":0.0,"$type":"System.Single"},"_type":"System.Single","key":"speed","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-339.3194,"y":4.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-941.0,"y":-28.0},"guid":"23244f1d-7508-40e7-875b-a36d1497e0ae","$version":"A","$type":"Unity.VisualScripting.GraphInput","$id":"12"},{"defaultValues":{},"position":{"x":128.0,"y":-18.0},"guid":"b493a21a-ca2f-4b33-8ed5-b0e00baa9531","$version":"A","$type":"Unity.VisualScripting.GraphOutput","$id":"14"},{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{"target":null,"speed":{"$content":1.0,"$type":"System.Single"}},"position":{"x":-409.0,"y":-29.0},"guid":"33600a01-767f-473b-ace7-a21df7f45763","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"16"},{"defaultValues":{"":{"$content":1,"$type":"UnityEngine.Object"}},"position":{"x":-427.0,"y":101.0},"guid":"190ebba5-19fd-42d2-a81c-9e3f65416a81","$version":"A","$type":"GetGKReferenceValueUnit","$id":"19"},{"sourceUnit":{"$ref":"16"},"sourceKey":"output","destinationUnit":{"$ref":"14"},"destinationKey":"output","guid":"d83629f9-c1d8-46e3-9faa-a73c360c70b5","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"input","destinationUnit":{"$ref":"16"},"destinationKey":"input","guid":"415d1457-5d31-46c5-9ae0-a8c5eaa25250","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"","destinationUnit":{"$ref":"16"},"destinationKey":"target","guid":"7fc95888-e874-4971-95b0-08dc811f5ace","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"speed","destinationUnit":{"$ref":"16"},"destinationKey":"speed","guid":"3240408a-b808-4d03-9fd9-b1ae87864d5b","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 0f9022e5e5973214f83b8bf7fc31a66f, type: 2}
+    - {fileID: 11400000, guid: d8c4688f5168a0b42bd32f36027edf59, type: 2}

@@ -14,6 +14,8 @@ public class HierarchyStringBuilder : GKBehaviour{
     public StringVar currentString;
 
     public void SetCurrentString(string str){
+        if(currentString.Value == str)
+            return;
         currentString.Value = str;
     }
 
@@ -86,7 +88,7 @@ public class HierarchyStringBuilder : GKBehaviour{
     }
     void LateUpdate(){
         if(shouldLoadFromChildren){
-            currentString.Value = LoadStringFromChildren();
+            SetCurrentString(LoadStringFromChildren());
             shouldLoadFromChildren = false;
         }
     }

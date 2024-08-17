@@ -30,10 +30,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 5992548470196373465}
   - {fileID: 3692328462331029448}
   - {fileID: 2060851626064494509}
   - {fileID: 2229319760122750573}
-  - {fileID: 5992548470196373465}
   - {fileID: 8884112942967313937}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -178,6 +178,17 @@ PrefabInstance:
       propertyPath: currentString._value
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4650560528503569141, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: observableVar._value
+      value: 
+      objectReference: {fileID: -2670924234472308256, guid: 80439929444bfe34b985ea82de07c260,
+        type: 3}
+    - target: {fileID: 5769165646283817668, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_Name
+      value: Projectile Scale (UI)
+      objectReference: {fileID: 0}
     - target: {fileID: 5946611843062515413, guid: 95701d1054e3ef444a774b398ff8af52,
         type: 3}
       propertyPath: m_Pivot.x
@@ -276,6 +287,26 @@ PrefabInstance:
     - target: {fileID: 5946611843062515413, guid: 95701d1054e3ef444a774b398ff8af52,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8635349736293095731, guid: 95701d1054e3ef444a774b398ff8af52,
@@ -412,6 +443,54 @@ PrefabInstance:
       propertyPath: currentString._value
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4650560528503569141, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: observableVar._value
+      value: 
+      objectReference: {fileID: -3162050281660995609, guid: bddd6d6c556c4a341a2e7a6045720d81,
+        type: 3}
+    - target: {fileID: 5689622890759398506, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5689622890759398506, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[3]._MemberName
+      value: OnDragTheCounterpartHereToEntangleChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 5689622890759398506, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[3]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5689622890759398506, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[3]._PersistentArguments.Array.data[0]._Type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5689622890759398506, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[3]._PersistentArguments.Array.data[1]._Type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5689622890759398506, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[3]._PersistentArguments.Array.data[0]._String
+      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 5689622890759398506, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[3]._PersistentArguments.Array.data[1]._String
+      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 5769165646283817668, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_Name
+      value: Projectile Speed (UI)
+      objectReference: {fileID: 0}
     - target: {fileID: 5946611843062515413, guid: 95701d1054e3ef444a774b398ff8af52,
         type: 3}
       propertyPath: m_Pivot.x
@@ -512,10 +591,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8635349736293095731, guid: 95701d1054e3ef444a774b398ff8af52,
         type: 3}
       propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.size
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 8635349736293095731, guid: 95701d1054e3ef444a774b398ff8af52,
         type: 3}
@@ -646,6 +745,17 @@ PrefabInstance:
       propertyPath: currentString._value
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4650560528503569141, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: observableVar._value
+      value: 
+      objectReference: {fileID: -7191782707126850112, guid: 35dfaf03ce46d3148b932907db6ae7bb,
+        type: 3}
+    - target: {fileID: 5769165646283817668, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_Name
+      value: Attack Damage (UI)
+      objectReference: {fileID: 0}
     - target: {fileID: 5946611843062515413, guid: 95701d1054e3ef444a774b398ff8af52,
         type: 3}
       propertyPath: m_Pivot.x
@@ -746,10 +856,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8635349736293095731, guid: 95701d1054e3ef444a774b398ff8af52,
         type: 3}
       propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.size
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8635349736293095731, guid: 95701d1054e3ef444a774b398ff8af52,
         type: 3}
@@ -880,6 +1010,17 @@ PrefabInstance:
       propertyPath: currentString._value
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4650560528503569141, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: observableVar._value
+      value: 
+      objectReference: {fileID: 21300000, guid: 64c1117f3d799074f96defaed263fa8d,
+        type: 3}
+    - target: {fileID: 5769165646283817668, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_Name
+      value: Object Size (UI)
+      objectReference: {fileID: 0}
     - target: {fileID: 5946611843062515413, guid: 95701d1054e3ef444a774b398ff8af52,
         type: 3}
       propertyPath: m_Pivot.x
@@ -978,6 +1119,26 @@ PrefabInstance:
     - target: {fileID: 5946611843062515413, guid: 95701d1054e3ef444a774b398ff8af52,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8635349736293095731, guid: 95701d1054e3ef444a774b398ff8af52,
@@ -1108,6 +1269,11 @@ PrefabInstance:
       propertyPath: currentString._value
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5769165646283817668, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_Name
+      value: Move Speed (UI)
+      objectReference: {fileID: 0}
     - target: {fileID: 5946611843062515413, guid: 95701d1054e3ef444a774b398ff8af52,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1208,10 +1374,30 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6263603988898717536, guid: 95701d1054e3ef444a774b398ff8af52,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8635349736293095731, guid: 95701d1054e3ef444a774b398ff8af52,
         type: 3}
       propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8635349736293095731, guid: 95701d1054e3ef444a774b398ff8af52,
         type: 3}

@@ -141,7 +141,7 @@ PrefabInstance:
     - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
         type: 3}
       propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.size
-      value: 12
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
         type: 3}
@@ -170,6 +170,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
         type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[12]._MemberName
+      value: OnDragTheCounterpartHereToEntangleChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[13]._MemberName
+      value: OnDragTheCounterpartHereToEntangleChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
+        type: 3}
       propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[7]._PersistentArguments.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -191,6 +201,16 @@ PrefabInstance:
     - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
         type: 3}
       propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[11]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[12]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[13]._PersistentArguments.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
@@ -241,6 +261,26 @@ PrefabInstance:
     - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
         type: 3}
       propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[11]._PersistentArguments.Array.data[1]._Type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[12]._PersistentArguments.Array.data[0]._Type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[12]._PersistentArguments.Array.data[1]._Type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[13]._PersistentArguments.Array.data[0]._Type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[13]._PersistentArguments.Array.data[1]._Type
       value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
@@ -300,6 +340,30 @@ PrefabInstance:
     - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
         type: 3}
       propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[11]._PersistentArguments.Array.data[1]._String
+      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[12]._PersistentArguments.Array.data[0]._String
+      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[12]._PersistentArguments.Array.data[1]._String
+      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[13]._PersistentArguments.Array.data[0]._String
+      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[13]._PersistentArguments.Array.data[1]._String
       value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
         PublicKeyToken=null
       objectReference: {fileID: 0}

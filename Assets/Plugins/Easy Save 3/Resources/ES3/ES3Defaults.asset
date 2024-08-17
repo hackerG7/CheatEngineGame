@@ -47,6 +47,7 @@ MonoBehaviour:
     - Febucci.TextAnimator.TMP.Runtime
     - GK.Core.HitBox.VisualScripting
     - GK.Feedback
+    - GK.Skill.Runtime
     - GKCore.LoadingScreenStudio.Core
     - GKCore.Runtime
     - IngameDebugConsole.Runtime

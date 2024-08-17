@@ -19,3 +19,6 @@
 [submodule "Unity-ManaModule"]
 	path = Assets/Modules/Unity-ManaModule
 	url = https://github.com/GKGameStudio/Unity-ManaModule.git
+[submodule "Unity-SkillModule"]
+	path = Assets/Modules/Unity-SkillModule
+	url = https://github.com/GKGameStudio/Unity-SkillModule.git

@@ -820,154 +820,11 @@ PrefabInstance:
       propertyPath: counterparts.dictionary.values.Array.data[0]
       value: 
       objectReference: {fileID: 8635349736293095731}
-    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[6]._MemberName
-      value: OnDragTheCounterpartHereToEntangleChanged
-      objectReference: {fileID: 0}
-    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[7]._MemberName
-      value: OnDragTheCounterpartHereToEntangleChanged
-      objectReference: {fileID: 0}
-    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[6]._PersistentArguments.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[7]._PersistentArguments.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[6]._PersistentArguments.Array.data[0]._Type
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[6]._PersistentArguments.Array.data[1]._Type
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[7]._PersistentArguments.Array.data[0]._Type
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[7]._PersistentArguments.Array.data[1]._Type
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[6]._PersistentArguments.Array.data[0]._String
-      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
-        PublicKeyToken=null
-      objectReference: {fileID: 0}
-    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[6]._PersistentArguments.Array.data[1]._String
-      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
-        PublicKeyToken=null
-      objectReference: {fileID: 0}
-    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[7]._PersistentArguments.Array.data[0]._String
-      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
-        PublicKeyToken=null
-      objectReference: {fileID: 0}
-    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[7]._PersistentArguments.Array.data[1]._String
-      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
-        PublicKeyToken=null
-      objectReference: {fileID: 0}
     - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
         type: 3}
       propertyPath: counterparts.dictionary.values.Array.data[1]
       value: 
       objectReference: {fileID: 5246856966212730036}
-    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.size
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[7]._MemberName
-      value: OnDragTheCounterpartHereToEntangleChanged
-      objectReference: {fileID: 0}
-    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[8]._MemberName
-      value: OnDragTheCounterpartHereToEntangleChanged
-      objectReference: {fileID: 0}
-    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[7]._PersistentArguments.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[8]._PersistentArguments.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[7]._PersistentArguments.Array.data[0]._Type
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[7]._PersistentArguments.Array.data[1]._Type
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[8]._PersistentArguments.Array.data[0]._Type
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[8]._PersistentArguments.Array.data[1]._Type
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[7]._PersistentArguments.Array.data[0]._String
-      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
-        PublicKeyToken=null
-      objectReference: {fileID: 0}
-    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[7]._PersistentArguments.Array.data[1]._String
-      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
-        PublicKeyToken=null
-      objectReference: {fileID: 0}
-    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[8]._PersistentArguments.Array.data[0]._String
-      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
-        PublicKeyToken=null
-      objectReference: {fileID: 0}
-    - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[8]._PersistentArguments.Array.data[1]._String
-      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
-        PublicKeyToken=null
-      objectReference: {fileID: 0}
-    - target: {fileID: 1094061909387710175, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: m_ChildAlignment
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1068,26 +925,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6068237625225086989, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6068237625225086989, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6068237625225086989, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6068237625225086989, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7986151798289104524, guid: 920647ee513e59640a349dfb28fb4f7d,
         type: 3}
       propertyPath: target
@@ -1097,26 +934,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stat UI
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980380667435465254, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980380667435465254, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980380667435465254, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8980380667435465254, guid: 920647ee513e59640a349dfb28fb4f7d,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

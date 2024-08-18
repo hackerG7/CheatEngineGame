@@ -691,7 +691,7 @@ PrefabInstance:
     - target: {fileID: 7391154952472627529, guid: b1500a3118d524e4eae3f98f2e0a4bc0,
         type: 3}
       propertyPath: m_Name
-      value: Enemy (1) Variant
+      value: Melee Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 7391154952472627529, guid: b1500a3118d524e4eae3f98f2e0a4bc0,
         type: 3}

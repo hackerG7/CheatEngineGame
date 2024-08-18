@@ -55,7 +55,7 @@ MonoBehaviour:
     _value: 
     onChanged:
       _PersistentCalls:
-      - _Target: {fileID: 0}
+      - _Target: {fileID: 60246710664502979}
         _MemberName: set_text
         _PersistentArguments:
         - _Type: 14
@@ -92,6 +92,27 @@ MonoBehaviour:
     _value: {fileID: 0}
     onChanged:
       _PersistentCalls:
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
       - _Target: {fileID: 0}
         _MemberName: OnDragTheCounterpartHereToEntangleChanged
         _PersistentArguments:
@@ -281,6 +302,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6774126e62187c249af74598e897e0a6, type: 3}
+--- !u!114 &60246710664502979 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2220130953415689873, guid: 6774126e62187c249af74598e897e0a6,
+    type: 3}
+  m_PrefabInstance: {fileID: 2168895840456415314}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1443650406185272517 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 725527194880679063, guid: 6774126e62187c249af74598e897e0a6,

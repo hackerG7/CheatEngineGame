@@ -1561,13 +1561,27 @@ MonoBehaviour:
       Event:
         m_PersistentCalls:
           m_Calls:
-          - m_Target: {fileID: 8647088407586671371}
-            m_TargetAssemblyTypeName: 
-            m_MethodName: 
-            m_Mode: 0
+          - m_Target: {fileID: 11400000, guid: 5c6c1c112bb2d7947a032c588d6945c6, type: 2}
+            m_TargetAssemblyTypeName: CHARK.ScriptableEvents.Events.SimpleScriptableEvent,
+              CHARK.ScriptableEvents
+            m_MethodName: Raise
+            m_Mode: 1
             m_Arguments:
               m_ObjectArgument: {fileID: 0}
-              m_ObjectArgumentAssemblyTypeName: 
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+          - m_Target: {fileID: 7945064723576928952}
+            m_TargetAssemblyTypeName: Doozy.Runtime.UIManager.Containers.UIContainer,
+              Assembly-CSharp
+            m_MethodName: Hide
+            m_Mode: 1
+            m_Arguments:
+              m_ObjectArgument: {fileID: 0}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
               m_IntArgument: 0
               m_FloatArgument: 0
               m_StringArgument: 

@@ -33,10 +33,10 @@ RectTransform:
   - {fileID: 6950167688283094149}
   m_Father: {fileID: 7361639011750155753}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1520, y: 900}
+  m_SizeDelta: {x: 500, y: -300}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &352612097141029439
 CanvasRenderer:
@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.5283019, g: 0.44750282, b: 0, a: 0.9019608}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -108,11 +108,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 7490493206926440267}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -50}
   m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &3656844296895201510
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -249,8 +249,72 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
   syncSiblingIndex: 1
   resetLocalPosition: 1
+  resetLocalScale: 1
 --- !u!1 &7071980652545506001
 GameObject:
   m_ObjectHideFlags: 0
@@ -354,7 +418,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MultiplayerInfo: {fileID: 0}
-  OnStartBehaviour: 0
+  OnStartBehaviour: 1
   OnShowCallback:
     EventName: OnShowCallback
     Runners: []
@@ -979,6 +1043,7 @@ GameObject:
   - component: {fileID: 4779871131671188063}
   - component: {fileID: 7139732858508266639}
   - component: {fileID: 5352650458343781958}
+  - component: {fileID: 2353616967426794469}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1069,3 +1134,33 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 55
+--- !u!114 &2353616967426794469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7279470544404337607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dd5bd37fc14e584485150002ae08e6b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onStart:
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MemberName: UnityEngine.Camera, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null.get_main
+      _PersistentArguments: []
+    - _Target: {fileID: 4779871131671188063}
+      _MemberName: set_worldCamera
+      _PersistentArguments:
+      - _Type: 15
+        _Int: 0
+        _String: UnityEngine.Camera, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}

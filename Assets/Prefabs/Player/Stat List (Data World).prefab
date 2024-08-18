@@ -149,6 +149,7 @@ MonoBehaviour:
           _Object: {fileID: 0}
   syncSiblingIndex: 1
   resetLocalPosition: 1
+  resetLocalScale: 1
 --- !u!1001 &121409051237204236
 PrefabInstance:
   m_ObjectHideFlags: 0

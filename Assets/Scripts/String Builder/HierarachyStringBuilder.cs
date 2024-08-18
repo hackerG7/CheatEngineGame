@@ -71,8 +71,6 @@ public class HierarchyStringBuilder : GKBehaviour{
             letter.GetComponent<StringVarHolder>().Value = str[i].ToString();
         }
 
-        Debug.Log("Rebuilding string: " + str);
-        Debug.Log("current children after rebuilding: " + transform.childCount);
     }
     #endregion
 
@@ -88,7 +86,7 @@ public class HierarchyStringBuilder : GKBehaviour{
     }
     void LateUpdate(){
         if(shouldLoadFromChildren){
-            SetCurrentString(LoadStringFromChildren());
+            // SetCurrentString(LoadStringFromChildren());
             shouldLoadFromChildren = false;
         }
     }
@@ -99,11 +97,11 @@ public class HierarchyStringBuilder : GKBehaviour{
             var stringVarHolder = child.GetComponent<StringVarHolder>();
             if (stringVarHolder != null) {
                 str += stringVarHolder.Value;
-                Debug.Log($"Child value: {stringVarHolder.Value}");
             } else {
                 Debug.LogWarning("Child missing StringVarHolder component");
             }
         }
+        SetCurrentString(str);
         return str;
     }
     #endregion

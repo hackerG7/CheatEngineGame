@@ -22,3 +22,6 @@
 [submodule "Unity-SkillModule"]
 	path = Assets/Modules/Unity-SkillModule
 	url = https://github.com/GKGameStudio/Unity-SkillModule.git
+[submodule "Unity-HitEffectModule"]
+	path = Assets/Modules/Unity-HitEffectModule
+	url = https://github.com/GKGameStudio/Unity-HitEffectModule.git

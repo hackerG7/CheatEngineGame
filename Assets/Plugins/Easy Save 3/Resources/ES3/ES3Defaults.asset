@@ -37,6 +37,7 @@ MonoBehaviour:
     - Assembly-CSharp-firstpass
     - CHARK.ScriptableEvents
     - CHARK.ScriptableEvents.Tests
+    - CHM.VisualScriptingKai
     - Cinemachine
     - Coffee.UnmaskForUGUI
     - CW.Common

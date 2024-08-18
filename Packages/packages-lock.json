@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "com.chocola-mint.visual-scripting-kai": {
+      "version": "https://github.com/chocola-mint/VisualScriptingKai.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.visualscripting": "1.8.0"
+      },
+      "hash": "fb1ba0bbd79298ba34b363d3522974134f938142"
+    },
     "com.singularitygroup.hotreload": {
       "version": "file:com.singularitygroup.hotreload",
       "depth": 0,

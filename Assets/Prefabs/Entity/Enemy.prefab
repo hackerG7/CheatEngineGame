@@ -305,6 +305,133 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[0]._Target
+      value: 
+      objectReference: {fileID: 8493273095725530214}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[1]._Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[2]._Target
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[0]._MemberName
+      value: get_position
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[1]._MemberName
+      value: GameObject_FeedbackExtension, GK.Feedback, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null.PlayFeedback
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[2]._MemberName
+      value: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null.Destroy
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[0]._PersistentArguments.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[1]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[2]._PersistentArguments.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[1]._PersistentArguments.Array.data[1]._X
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[2]._PersistentArguments.Array.data[1]._X
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[0]._PersistentArguments.Array.data[0]._Type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[0]._PersistentArguments.Array.data[1]._Type
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[1]._PersistentArguments.Array.data[0]._Type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[1]._PersistentArguments.Array.data[1]._Type
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[2]._PersistentArguments.Array.data[0]._Type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[2]._PersistentArguments.Array.data[1]._Type
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[0]._PersistentArguments.Array.data[0]._Object
+      value: 
+      objectReference: {fileID: 3457042993412523234, guid: 1e9315a1564de9e459cee968ddae8ca1,
+        type: 3}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[0]._PersistentArguments.Array.data[0]._String
+      value: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[1]._PersistentArguments.Array.data[0]._Object
+      value: 
+      objectReference: {fileID: 3457042993412523234, guid: 1e9315a1564de9e459cee968ddae8ca1,
+        type: 3}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[1]._PersistentArguments.Array.data[0]._String
+      value: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[2]._PersistentArguments.Array.data[0]._Object
+      value: 
+      objectReference: {fileID: 7391154952472627529}
+    - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[2]._PersistentArguments.Array.data[0]._String
+      value: UnityEngine.Object, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
     - target: {fileID: 2782648018254361550, guid: 5c887b12949dd384cb81b8f12a42c2e1,
         type: 3}
       propertyPath: m_Name
@@ -380,12 +507,18 @@ MonoBehaviour:
     type: 3}
   m_PrefabInstance: {fileID: 4616009185555839623}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 7391154952472627529}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d4d7ed1e8d7250e4f82190528ebe1ac0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &7391154952472627529 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2782648018254361550, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+    type: 3}
+  m_PrefabInstance: {fileID: 4616009185555839623}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8493273095725530214 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3878005017544017633, guid: 5c887b12949dd384cb81b8f12a42c2e1,

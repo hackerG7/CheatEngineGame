@@ -416,7 +416,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7968142574808663210}
   - component: {fileID: 849119544922353406}
-  - component: {fileID: 7247878892187348255}
   - component: {fileID: 6452293930848580917}
   m_Layer: 0
   m_Name: Display
@@ -493,41 +492,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!58 &7247878892187348255
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5455398308281622322}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  serializedVersion: 2
-  m_Radius: 0.14391384
 --- !u!95 &6452293930848580917
 Animator:
   serializedVersion: 5
@@ -696,7 +660,7 @@ PrefabInstance:
     - target: {fileID: 7391154952472627529, guid: b1500a3118d524e4eae3f98f2e0a4bc0,
         type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7629705540023407111, guid: b1500a3118d524e4eae3f98f2e0a4bc0,
         type: 3}
@@ -803,6 +767,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 5252603980312460336}
+    - targetCorrespondingSourceObject: {fileID: 7391154952472627529, guid: b1500a3118d524e4eae3f98f2e0a4bc0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2205070696493359487}
   m_SourcePrefab: {fileID: 100100000, guid: b1500a3118d524e4eae3f98f2e0a4bc0, type: 3}
 --- !u!4 &4828474234966686504 stripped
 Transform:
@@ -888,6 +856,41 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Animator: {fileID: 6452293930848580917}
   _ActionOnDisable: 0
+--- !u!58 &2205070696493359487
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5786752917915209223}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.062438965}
+  serializedVersion: 2
+  m_Radius: 0.1451478
 --- !u!4 &6862973020007716169 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7629705540023407111, guid: b1500a3118d524e4eae3f98f2e0a4bc0,

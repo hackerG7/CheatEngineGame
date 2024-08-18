@@ -329,6 +329,7 @@ GameObject:
   - component: {fileID: 1489889256}
   - component: {fileID: 1489889259}
   - component: {fileID: 1489889260}
+  - component: {fileID: 1489889261}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -434,6 +435,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a89db499c8f866a4ab662ee54ba651fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1489889261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489889254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c924ffde89fdc44bb95f00abf822feb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1719902697
@@ -565,9 +578,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ea2244452f3e6f4d8c279a9ae2b78a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statId: {fileID: 11400000, guid: 192e1b58450e647459265f1d289823a1, type: 2}
-  floatStat:
-    _value: 0.1
+  runChangeEventOnStart: 1
+  observableVar:
+    _value: 1
     onChanged:
       _PersistentCalls: []
     flat: 0
@@ -576,6 +589,7 @@ MonoBehaviour:
     linkedFLatFloatStats: []
     linkedMultiplierFloatStats: []
     linkedAmplifierFloatStats: []
+  statId: {fileID: 11400000, guid: 192e1b58450e647459265f1d289823a1, type: 2}
 --- !u!1 &1985838448
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,8 +634,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ea2244452f3e6f4d8c279a9ae2b78a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  statId: {fileID: 11400000, guid: 08280c0b83b2d57429f908546dd2c24c, type: 2}
-  floatStat:
+  runChangeEventOnStart: 1
+  observableVar:
     _value: 1
     onChanged:
       _PersistentCalls: []
@@ -631,6 +645,7 @@ MonoBehaviour:
     linkedFLatFloatStats: []
     linkedMultiplierFloatStats: []
     linkedAmplifierFloatStats: []
+  statId: {fileID: 11400000, guid: 08280c0b83b2d57429f908546dd2c24c, type: 2}
 --- !u!1001 &206006484895644732
 PrefabInstance:
   m_ObjectHideFlags: 0

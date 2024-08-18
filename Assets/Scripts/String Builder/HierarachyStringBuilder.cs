@@ -19,16 +19,6 @@ public class HierarchyStringBuilder : GKBehaviour{
         currentString.Value = str;
     }
 
-    void Awake(){
-        currentString.onChanged += OnCurrentStringChanged;
-    }
-
-    // Rebuild the string when the current string changes
-    void OnCurrentStringChanged(string oldString, string newString){
-        if(oldString == newString)
-            return;
-        TryRebuild();
-    }
     #endregion
 
     #region Building

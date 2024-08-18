@@ -182,7 +182,7 @@ GameObject:
   - component: {fileID: 730674951540700746}
   - component: {fileID: 8221251912982984956}
   m_Layer: 0
-  m_Name: Stat List (Data World)
+  m_Name: Stats (Data World)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

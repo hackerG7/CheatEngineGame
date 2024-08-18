@@ -432,12 +432,6 @@ Transform:
   - {fileID: 1063039078}
   m_Father: {fileID: 1608542940}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &758223407 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3681690870241515829, guid: bace0572d29310347b7b3fa3204aa4bb,
-    type: 3}
-  m_PrefabInstance: {fileID: 3173175622730678446}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &850755871
 GameObject:
   m_ObjectHideFlags: 0
@@ -1998,12 +1992,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Follow
       value: 
-      objectReference: {fileID: 758223407}
+      objectReference: {fileID: 0}
     - target: {fileID: 5158147850479692829, guid: 4a8ec3a7944291441bd38264d7ec0e95,
         type: 3}
       propertyPath: m_LookAt
       value: 
-      objectReference: {fileID: 758223407}
+      objectReference: {fileID: 0}
     - target: {fileID: 8248883776139951672, guid: 4a8ec3a7944291441bd38264d7ec0e95,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2322,21 +2316,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -60
-      objectReference: {fileID: 0}
-    - target: {fileID: 8453337775742898595, guid: bace0572d29310347b7b3fa3204aa4bb,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8453337775742898595, guid: bace0572d29310347b7b3fa3204aa4bb,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8453337775742898595, guid: bace0572d29310347b7b3fa3204aa4bb,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8586541233645047601, guid: bace0572d29310347b7b3fa3204aa4bb,
         type: 3}

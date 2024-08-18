@@ -245,7 +245,7 @@ MonoBehaviour:
   autoStart: 1
   autoRepeat: 0
   duration:
-    _value: 30
+    _value: 5
     onChanged:
       _PersistentCalls: []
     flat: 0

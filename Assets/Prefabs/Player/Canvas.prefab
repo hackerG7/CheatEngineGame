@@ -59,7 +59,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5283019, g: 0.44750282, b: 0, a: 0.9019608}
+  m_Color: {r: 0.5283019, g: 0.44750282, b: 0, a: 0.2784314}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -330,6 +330,7 @@ GameObject:
   - component: {fileID: 7945064723576928952}
   - component: {fileID: 3416014864863556748}
   - component: {fileID: 2249091450783336743}
+  - component: {fileID: 6129201860334667268}
   m_Layer: 5
   m_Name: View - StatListView
   m_TagString: Untagged
@@ -354,7 +355,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 2007, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7051238554657015746
@@ -424,7 +425,19 @@ MonoBehaviour:
     Runners: []
     Event:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 6129201860334667268}
+          m_TargetAssemblyTypeName: PlayerInputLocker, GKCore.Runtime
+          m_MethodName: Lock
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   OnVisibleCallback:
     EventName: OnVisibleCallback
     Runners: []
@@ -436,7 +449,19 @@ MonoBehaviour:
     Runners: []
     Event:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 6129201860334667268}
+          m_TargetAssemblyTypeName: PlayerInputLocker, GKCore.Runtime
+          m_MethodName: Unlock
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   OnHiddenCallback:
     EventName: OnHiddenCallback
     Runners: []
@@ -1031,6 +1056,21 @@ MonoBehaviour:
       ToCustomValue: 0
       FromOffset: 0
       ToOffset: 0
+--- !u!114 &6129201860334667268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7071980652545506001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d525e6e0255cac04ab0de2b7735beb07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockActionAsset: {fileID: -944628639613478452, guid: 0ecae8715da75f6448629ed0707b3517,
+    type: 3}
+  isLocked: 0
 --- !u!1 &7279470544404337607
 GameObject:
   m_ObjectHideFlags: 0
@@ -1044,6 +1084,7 @@ GameObject:
   - component: {fileID: 7139732858508266639}
   - component: {fileID: 5352650458343781958}
   - component: {fileID: 2353616967426794469}
+  - component: {fileID: 8135870148280255569}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1164,3 +1205,51 @@ MonoBehaviour:
         _Z: 0
         _W: 0
         _Object: {fileID: 0}
+--- !u!114 &8135870148280255569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7279470544404337607}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Actions: {fileID: -944628639613478452, guid: 7185f1beff7b3d8469f038faef19cdf2,
+    type: 3}
+  m_NotificationBehavior: 2
+  m_UIInputModule: {fileID: 0}
+  m_DeviceLostEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_DeviceRegainedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ControlsChangedEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  m_ActionEvents:
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 7945064723576928952}
+        m_TargetAssemblyTypeName: Doozy.Runtime.UIManager.Containers.UIContainer,
+          Assembly-CSharp
+        m_MethodName: Toggle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: f9fc3cc6-6dcd-4a49-b2de-0a1db7015bd3
+    m_ActionName: UI/Open Stat Menu[/Keyboard/escape]
+  m_NeverAutoSwitchControlSchemes: 0
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: UI
+  m_SplitScreenIndex: -1
+  m_Camera: {fileID: 0}

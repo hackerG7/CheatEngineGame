@@ -91,7 +91,7 @@ public class HierarchyStringBuilder : GKBehaviour{
         }
     }
 
-    string LoadStringFromChildren(){
+    public void LoadStringFromChildren(){
         string str = "";
         foreach (Transform child in transform){
             var stringVarHolder = child.GetComponent<StringVarHolder>();
@@ -102,7 +102,6 @@ public class HierarchyStringBuilder : GKBehaviour{
             }
         }
         SetCurrentString(str);
-        return str;
     }
     #endregion
 

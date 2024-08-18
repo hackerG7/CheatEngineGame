@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6612023038628985195}
   - component: {fileID: 901221771226638079}
   - component: {fileID: 5246856966212730036}
+  - component: {fileID: 4807957652920764557}
   m_Layer: 0
   m_Name: Letter Builder
   m_TagString: Untagged
@@ -348,6 +349,36 @@ MonoBehaviour:
   syncSiblingIndex: 1
   resetLocalPosition: 1
   resetLocalScale: 1
+--- !u!114 &4807957652920764557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8876756017399727630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2300d56ac22446e59de6de2fb87235d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptableEvent: {fileID: 0}
+  scriptableEvents:
+  - {fileID: 11400000, guid: 5c6c1c112bb2d7947a032c588d6945c6, type: 2}
+  onRaised:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 901221771226638079}
+        m_TargetAssemblyTypeName: 
+        m_MethodName: 
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &8932708741182799683
 GameObject:
   m_ObjectHideFlags: 0

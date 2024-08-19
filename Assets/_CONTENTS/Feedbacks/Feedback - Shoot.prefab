@@ -423,7 +423,7 @@ MonoBehaviour:
               m_PostInfinity: 2
               m_RotationOrder: 4
             m_AttackTime: 0
-            m_SustainTime: 0.1
+            m_SustainTime: 0.05
             m_DecayTime: 0.7
             m_ScaleWithImpact: 1
             m_HoldForever: 0
@@ -432,5 +432,5 @@ MonoBehaviour:
           m_DissipationMode: 2
           m_DissipationDistance: 100
           m_PropagationSpeed: 343
-        Velocity: {x: 5, y: 5, z: 5}
+        Velocity: {x: 2, y: 2, z: 2}
         ClearImpulseOnStop: 0

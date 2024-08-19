@@ -59,7 +59,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2337553837825570574}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -190,7 +190,7 @@ MonoBehaviour:
   ShowProgressors: []
   HideProgressors: []
   ShowHideProgressors: []
-  CustomStartPosition: {x: 295.5, y: 0, z: 0}
+  CustomStartPosition: {x: 0, y: 0, z: 0}
   UseCustomStartPosition: 1
   AutoHideAfterShow: 0
   AutoHideAfterShowDelay: 0
@@ -844,7 +844,7 @@ PrefabInstance:
     - target: {fileID: 84197802471703386, guid: f3fa2a5a8de56c84a8942944a7972d50,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: -570
       objectReference: {fileID: 0}
     - target: {fileID: 84197802471703386, guid: f3fa2a5a8de56c84a8942944a7972d50,
         type: 3}
@@ -889,7 +889,7 @@ PrefabInstance:
     - target: {fileID: 84197802471703386, guid: f3fa2a5a8de56c84a8942944a7972d50,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 285
       objectReference: {fileID: 0}
     - target: {fileID: 84197802471703386, guid: f3fa2a5a8de56c84a8942944a7972d50,
         type: 3}
@@ -941,11 +941,6 @@ PrefabInstance:
       propertyPath: Controller
       value: 
       objectReference: {fileID: 3700872020676636228}
-    - target: {fileID: 1733818233645852848, guid: f3fa2a5a8de56c84a8942944a7972d50,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1733818233645852848, guid: f3fa2a5a8de56c84a8942944a7972d50,
         type: 3}
       propertyPath: Controller
@@ -1006,12 +1001,6 @@ PrefabInstance:
       propertyPath: Controller
       value: 
       objectReference: {fileID: 3700872020676636228}
-    - target: {fileID: 3478836651302100891, guid: f3fa2a5a8de56c84a8942944a7972d50,
-        type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 1022895092, guid: 8baba64e281b61548b20de826009cc3d,
-        type: 3}
     - target: {fileID: 3720081304698003517, guid: f3fa2a5a8de56c84a8942944a7972d50,
         type: 3}
       propertyPath: Controller

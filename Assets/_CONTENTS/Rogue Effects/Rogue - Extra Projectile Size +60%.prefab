@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 1263069534813796754, guid: a693168dccf9c824a8402057a7545901,
         type: 3}
       propertyPath: m_Name
-      value: Rogue - Extra Health +30%
+      value: Rogue - Extra Projectile Size +60%
       objectReference: {fileID: 0}
     - target: {fileID: 5932499149450643264, guid: a693168dccf9c824a8402057a7545901,
         type: 3}
@@ -67,13 +67,13 @@ PrefabInstance:
         type: 3}
       propertyPath: observableVar._value
       value: 
-      objectReference: {fileID: -1933661148, guid: 8baba64e281b61548b20de826009cc3d,
+      objectReference: {fileID: -1225781211, guid: 8baba64e281b61548b20de826009cc3d,
         type: 3}
     - target: {fileID: 7147292132417153394, guid: a693168dccf9c824a8402057a7545901,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: a57385424e8185f49b7a48d65ec38da1,
+      objectReference: {fileID: 11400000, guid: 1c11a07953f40634399ec957e2610703,
         type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

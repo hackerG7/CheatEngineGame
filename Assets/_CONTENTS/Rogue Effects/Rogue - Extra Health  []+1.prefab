@@ -63,6 +63,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6994046426782678794, guid: a693168dccf9c824a8402057a7545901,
+        type: 3}
+      propertyPath: observableVar._value
+      value: 
+      objectReference: {fileID: -1933661148, guid: 8baba64e281b61548b20de826009cc3d,
+        type: 3}
     - target: {fileID: 7147292132417153394, guid: a693168dccf9c824a8402057a7545901,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]

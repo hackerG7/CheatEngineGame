@@ -150,7 +150,7 @@ MonoBehaviour:
       _MemberName: set_flipX
       _PersistentArguments:
       - _Type: 1
-        _Int: 1
+        _Int: 0
         _String: 
         _X: 0
         _Y: 0
@@ -225,7 +225,7 @@ MonoBehaviour:
       _MemberName: set_flipX
       _PersistentArguments:
       - _Type: 1
-        _Int: 0
+        _Int: 1
         _String: 
         _X: 0
         _Y: 0
@@ -287,6 +287,8 @@ MonoBehaviour:
     _value: 0
     onChanged:
       _PersistentCalls: []
+  onChanged:
+    _PersistentCalls: []
 --- !u!114 &3740335568258822725
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -416,13 +418,34 @@ MonoBehaviour:
   observableVar:
     _value: 1
     onChanged:
-      _PersistentCalls: []
+      _PersistentCalls:
+      - _Target: {fileID: 2194098382175005056}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
     linkedFLatFloatStats: []
     linkedMultiplierFloatStats: []
     linkedAmplifierFloatStats: []
+  onChanged:
+    _PersistentCalls: []
   statId: {fileID: 11400000, guid: c09380e1a7de06345a48f98b50ab0de4, type: 2}
 --- !u!1 &5585846735198710166
 GameObject:
@@ -499,12 +522,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 61951865, guid: a5a0b0ec435317240847ad137d3d7cbc, type: 3}
-  m_Color: {r: 0.5510279, g: 0.33490568, b: 1, a: 1}
+  m_Sprite: {fileID: -999768388, guid: f85c6b1f4fed18e4ab2ace0624664ce6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5.12, y: 5.12}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -579,13 +602,34 @@ MonoBehaviour:
   observableVar:
     _value: 2
     onChanged:
-      _PersistentCalls: []
+      _PersistentCalls:
+      - _Target: {fileID: 3574253302742253484}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
     linkedFLatFloatStats: []
     linkedMultiplierFloatStats: []
     linkedAmplifierFloatStats: []
+  onChanged:
+    _PersistentCalls: []
   statId: {fileID: 11400000, guid: 08280c0b83b2d57429f908546dd2c24c, type: 2}
 --- !u!1 &6121074270226944613
 GameObject:
@@ -635,13 +679,34 @@ MonoBehaviour:
   observableVar:
     _value: 10
     onChanged:
-      _PersistentCalls: []
+      _PersistentCalls:
+      - _Target: {fileID: 2689047814059814472}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
     linkedFLatFloatStats: []
     linkedMultiplierFloatStats: []
     linkedAmplifierFloatStats: []
+  onChanged:
+    _PersistentCalls: []
   statId: {fileID: 11400000, guid: 192e1b58450e647459265f1d289823a1, type: 2}
 --- !u!1001 &2586104473089841821
 PrefabInstance:
@@ -769,7 +834,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7391154952472627529, guid: b1500a3118d524e4eae3f98f2e0a4bc0,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 4954881492878022614}
+      addedObject: {fileID: 8699710335304478060}
   m_SourcePrefab: {fileID: 100100000, guid: b1500a3118d524e4eae3f98f2e0a4bc0, type: 3}
 --- !u!1 &5003807143360566228 stripped
 GameObject:
@@ -849,8 +914,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Animator: {fileID: 367162283822035681}
   _ActionOnDisable: 0
---- !u!58 &4954881492878022614
-CircleCollider2D:
+--- !u!70 &8699710335304478060
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -881,9 +946,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.062438965}
-  serializedVersion: 2
-  m_Radius: 0.1451478
+  m_Offset: {x: 0, y: 0.045125246}
+  m_Size: {x: 2.130777, y: 3.6185174}
+  m_Direction: 0
 --- !u!4 &5332711189895792794 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7629705540023407111, guid: b1500a3118d524e4eae3f98f2e0a4bc0,

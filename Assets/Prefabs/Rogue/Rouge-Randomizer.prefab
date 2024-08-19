@@ -57,14 +57,79 @@ MonoBehaviour:
     - item: {fileID: 7022920210829137901, guid: aaa370bb97165c54f9dd6b76fde38190,
         type: 3}
       weight: 1
-      stockCount: 5
+      stockCount: 1
       allowSameInOneDraw: 0
     - item: {fileID: 7022920210829137901, guid: a5887a9ef38b9f24f88b4826cc3ae1f3,
         type: 3}
-      weight: 5
+      weight: 1
+      stockCount: 1
+      allowSameInOneDraw: 0
+    - item: {fileID: 7022920210829137901, guid: f3e4dbcf423c85140be0294049404a30,
+        type: 3}
+      weight: 1
       stockCount: 1
       allowSameInOneDraw: 0
     - item: {fileID: 7022920210829137901, guid: ec51494286434a540a09364a54456549,
+        type: 3}
+      weight: 1
+      stockCount: 1
+      allowSameInOneDraw: 0
+    - item: {fileID: 7022920210829137901, guid: 0d24dc5566c2fc146aa6ac7153ec3910,
+        type: 3}
+      weight: 1
+      stockCount: 1
+      allowSameInOneDraw: 0
+    - item: {fileID: 7022920210829137901, guid: 575d1b2a704e0b7488730368551561b1,
+        type: 3}
+      weight: 1
+      stockCount: 1
+      allowSameInOneDraw: 0
+    - item: {fileID: 7022920210829137901, guid: 1e824438740ee684fb422b7749ae3f4f,
+        type: 3}
+      weight: 1
+      stockCount: 1
+      allowSameInOneDraw: 0
+    - item: {fileID: 7022920210829137901, guid: ce781c653617b1a42b6e6c9bc3d8db3f,
+        type: 3}
+      weight: 1
+      stockCount: 1
+      allowSameInOneDraw: 0
+    - item: {fileID: 7022920210829137901, guid: bd96a638204747e408bca8fd60b73059,
+        type: 3}
+      weight: 1
+      stockCount: 1
+      allowSameInOneDraw: 0
+    - item: {fileID: 7022920210829137901, guid: 54fe9415f088f234a856e24864e351dd,
+        type: 3}
+      weight: 1
+      stockCount: 1
+      allowSameInOneDraw: 0
+    - item: {fileID: 7022920210829137901, guid: 84eb06c822fb5744daa823cdab1eced7,
+        type: 3}
+      weight: 1
+      stockCount: 1
+      allowSameInOneDraw: 0
+    - item: {fileID: 7022920210829137901, guid: 06126d99efb8959498906c35def22a63,
+        type: 3}
+      weight: 1
+      stockCount: 1
+      allowSameInOneDraw: 0
+    - item: {fileID: 7022920210829137901, guid: 85b2590fb62d0564a8e6bc27caab90d5,
+        type: 3}
+      weight: 1
+      stockCount: 1
+      allowSameInOneDraw: 0
+    - item: {fileID: 7022920210829137901, guid: 9cab3cfc381981a44b76c6eb0693d772,
+        type: 3}
+      weight: 1
+      stockCount: 1
+      allowSameInOneDraw: 0
+    - item: {fileID: 7022920210829137901, guid: 3524694e76a38f74b84da71b7eefc8e6,
+        type: 3}
+      weight: 1
+      stockCount: 1
+      allowSameInOneDraw: 0
+    - item: {fileID: 7022920210829137901, guid: 5da845fb7783d474ab3aa5e61f77c49b,
         type: 3}
       weight: 1
       stockCount: 1

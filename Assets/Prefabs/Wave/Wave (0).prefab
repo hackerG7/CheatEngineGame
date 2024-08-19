@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3347eaca462d2744bb72efb987e31473, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 4568477991069409575, guid: b1e0af2164299614eb51cbea4332a32c, type: 3}
+  prefab: {fileID: 2410683879367076653, guid: 658554878e32ea342b3906b538320753, type: 3}
   spawnMode: 0
   spawnPoints: []
   spawnPointTags:
@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3347eaca462d2744bb72efb987e31473, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 5786752917915209223, guid: e42c87006696e704ea05707f01e28f13, type: 3}
+  prefab: {fileID: 5000007439079981409, guid: b06029bc40166f4408bb58c61de5b9c1, type: 3}
   spawnMode: 0
   spawnPoints: []
   spawnPointTags:
@@ -209,7 +209,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3347eaca462d2744bb72efb987e31473, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 5003807143360566228, guid: 9fd5740ec43d6ba4799f730db44e7b00, type: 3}
+  prefab: {fileID: 6654116040476620370, guid: 8fda3408a8f89164d87f6ca83e3c6516, type: 3}
   spawnMode: 0
   spawnPoints: []
   spawnPointTags:

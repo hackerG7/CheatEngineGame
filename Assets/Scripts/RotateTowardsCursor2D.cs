@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UltEvents;
 using UnityEngine;
 
 public class RotateTowardsCursor2D : MonoBehaviour

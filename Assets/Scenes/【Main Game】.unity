@@ -836,12 +836,27 @@ PrefabInstance:
     - target: {fileID: 4054060585204541634, guid: 4a8ec3a7944291441bd38264d7ec0e95,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4054060585204541634, guid: 4a8ec3a7944291441bd38264d7ec0e95,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -10
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4132927070259841881, guid: 4a8ec3a7944291441bd38264d7ec0e95,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.19289477
+      objectReference: {fileID: 0}
+    - target: {fileID: 4132927070259841881, guid: 4a8ec3a7944291441bd38264d7ec0e95,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.14898539
+      objectReference: {fileID: 0}
+    - target: {fileID: 4132927070259841881, guid: 4a8ec3a7944291441bd38264d7ec0e95,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.33962262
       objectReference: {fileID: 0}
     - target: {fileID: 5158147850479692829, guid: 4a8ec3a7944291441bd38264d7ec0e95,
         type: 3}
@@ -1026,7 +1041,7 @@ PrefabInstance:
     - target: {fileID: 8291193921255815902, guid: 4a8ec3a7944291441bd38264d7ec0e95,
         type: 3}
       propertyPath: orthographic size
-      value: 11.25
+      value: 8.4375
       objectReference: {fileID: 0}
     - target: {fileID: 8291193921255815902, guid: 4a8ec3a7944291441bd38264d7ec0e95,
         type: 3}

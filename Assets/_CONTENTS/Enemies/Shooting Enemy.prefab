@@ -66,7 +66,7 @@ MonoBehaviour:
       _MemberName: set_flipX
       _PersistentArguments:
       - _Type: 1
-        _Int: 1
+        _Int: 0
         _String: 
         _X: 0
         _Y: 0
@@ -212,6 +212,8 @@ MonoBehaviour:
     _value: 0
     onChanged:
       _PersistentCalls: []
+  onChanged:
+    _PersistentCalls: []
 --- !u!114 &5656754598977140402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -339,15 +341,93 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runChangeEventOnStart: 1
   observableVar:
-    _value: 1
+    _value: 5
     onChanged:
-      _PersistentCalls: []
+      _PersistentCalls:
+      - _Target: {fileID: 216727876128863152}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 216727876128863152}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 216727876128863152}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 216727876128863152}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
     linkedFLatFloatStats: []
     linkedMultiplierFloatStats: []
     linkedAmplifierFloatStats: []
+  onChanged:
+    _PersistentCalls: []
   statId: {fileID: 11400000, guid: c09380e1a7de06345a48f98b50ab0de4, type: 2}
 --- !u!1 &4863836037716342268
 GameObject:
@@ -397,13 +477,91 @@ MonoBehaviour:
   observableVar:
     _value: 10
     onChanged:
-      _PersistentCalls: []
+      _PersistentCalls:
+      - _Target: {fileID: 7064860346026395685}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 7064860346026395685}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 7064860346026395685}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 7064860346026395685}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
     linkedFLatFloatStats: []
     linkedMultiplierFloatStats: []
     linkedAmplifierFloatStats: []
+  onChanged:
+    _PersistentCalls: []
   statId: {fileID: 11400000, guid: 192e1b58450e647459265f1d289823a1, type: 2}
 --- !u!1 &5455398308281622322
 GameObject:
@@ -480,7 +638,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -929468832, guid: 82e30bb55a318e24e9b4d22c696e6e21, type: 3}
+  m_Sprite: {fileID: 1938646478, guid: 938090a214417044db72e3a67015e778, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -578,7 +736,7 @@ MonoBehaviour:
       _MemberName: set_flipX
       _PersistentArguments:
       - _Type: 1
-        _Int: 0
+        _Int: 1
         _String: 
         _X: 0
         _Y: 0
@@ -635,13 +793,91 @@ MonoBehaviour:
   observableVar:
     _value: 1
     onChanged:
-      _PersistentCalls: []
+      _PersistentCalls:
+      - _Target: {fileID: 2890764378264211689}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 2890764378264211689}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 2890764378264211689}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 2890764378264211689}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
     linkedFLatFloatStats: []
     linkedMultiplierFloatStats: []
     linkedAmplifierFloatStats: []
+  onChanged:
+    _PersistentCalls: []
   statId: {fileID: 11400000, guid: 08280c0b83b2d57429f908546dd2c24c, type: 2}
 --- !u!1001 &3953040458729031502
 PrefabInstance:
@@ -887,9 +1123,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.062438965}
+  m_Offset: {x: 0, y: -0.4569605}
   serializedVersion: 2
-  m_Radius: 0.1451478
+  m_Radius: 0.46991867
 --- !u!4 &6862973020007716169 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7629705540023407111, guid: b1500a3118d524e4eae3f98f2e0a4bc0,

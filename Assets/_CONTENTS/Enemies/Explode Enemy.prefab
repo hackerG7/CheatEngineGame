@@ -55,6 +55,8 @@ MonoBehaviour:
     linkedFLatFloatStats: []
     linkedMultiplierFloatStats: []
     linkedAmplifierFloatStats: []
+  onChanged:
+    _PersistentCalls: []
   statId: {fileID: 11400000, guid: 08280c0b83b2d57429f908546dd2c24c, type: 2}
 --- !u!1 &2415525648231624779
 GameObject:
@@ -293,6 +295,8 @@ MonoBehaviour:
     linkedFLatFloatStats: []
     linkedMultiplierFloatStats: []
     linkedAmplifierFloatStats: []
+  onChanged:
+    _PersistentCalls: []
   statId: {fileID: 11400000, guid: 192e1b58450e647459265f1d289823a1, type: 2}
 --- !u!1 &4765244617594616662
 GameObject:
@@ -349,6 +353,8 @@ MonoBehaviour:
     linkedFLatFloatStats: []
     linkedMultiplierFloatStats: []
     linkedAmplifierFloatStats: []
+  onChanged:
+    _PersistentCalls: []
   statId: {fileID: 11400000, guid: c09380e1a7de06345a48f98b50ab0de4, type: 2}
 --- !u!1 &6042383519734835276
 GameObject:
@@ -507,9 +513,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 817eca01e5b30e34a915aeeb60a83019, type: 2}
+    _json: '{"nest":{"source":"Macro","macro":null,"embed":null}}'
+    _objectReferences: []
 --- !u!1 &8942821918750571380
 GameObject:
   m_ObjectHideFlags: 0
@@ -563,6 +568,8 @@ MonoBehaviour:
     _value: 0
     onChanged:
       _PersistentCalls: []
+  onChanged:
+    _PersistentCalls: []
 --- !u!114 &8321565085411068537
 MonoBehaviour:
   m_ObjectHideFlags: 0

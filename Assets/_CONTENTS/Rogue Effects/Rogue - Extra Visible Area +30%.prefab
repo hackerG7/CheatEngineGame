@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 1263069534813796754, guid: a693168dccf9c824a8402057a7545901,
         type: 3}
       propertyPath: m_Name
-      value: Rogue - Extra Shoot Rate []+1 1
+      value: Rogue - Extra Visible Area +30%
       objectReference: {fileID: 0}
     - target: {fileID: 5932499149450643264, guid: a693168dccf9c824a8402057a7545901,
         type: 3}

@@ -209,7 +209,7 @@ MonoBehaviour:
           ButtonText: Automatic Shaker Setup
         Owner: {fileID: 7946536847393038422}
         DebugActive: 0
-        Sfx: {fileID: 8300000, guid: 5726a1919a76249248b71f2c0db2de16, type: 3}
+        Sfx: {fileID: 8300000, guid: 3bc013dad63a144f180df160104b4242, type: 3}
         RandomSfx: []
         SequentialOrder: 0
         SequentialOrderHoldLast: 0

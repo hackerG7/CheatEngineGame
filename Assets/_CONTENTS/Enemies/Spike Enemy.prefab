@@ -704,6 +704,25 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 240365116892008984}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
@@ -788,7 +807,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -1578517072, guid: 1675b4996aeed8c44a7b02010cf6cfd9, type: 3}
+  m_Sprite: {fileID: 1950333567, guid: a81b6b1d6485dd340b4e7af121f7063b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -869,6 +888,25 @@ MonoBehaviour:
     _value: 2
     onChanged:
       _PersistentCalls:
+      - _Target: {fileID: 2921538259438584134}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
       - _Target: {fileID: 2921538259438584134}
         _MemberName: OnValueChanged
         _PersistentArguments:
@@ -1421,6 +1459,25 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 3574253302742253484}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
@@ -1479,6 +1536,25 @@ MonoBehaviour:
     _value: 300
     onChanged:
       _PersistentCalls:
+      - _Target: {fileID: 2689047814059814472}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
       - _Target: {fileID: 2689047814059814472}
         _MemberName: OnValueChanged
         _PersistentArguments:
@@ -2012,6 +2088,25 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 274893316088003324}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
@@ -2047,7 +2142,7 @@ PrefabInstance:
     - target: {fileID: 7391154952472627529, guid: b1500a3118d524e4eae3f98f2e0a4bc0,
         type: 3}
       propertyPath: m_Name
-      value: Burning Enemy
+      value: Spike Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 7391154952472627529, guid: b1500a3118d524e4eae3f98f2e0a4bc0,
         type: 3}
@@ -2292,8 +2387,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.3893026}
-  m_Size: {x: 0.84938097, y: 1.4400575}
+  m_Offset: {x: 0.05812657, y: 0.20466447}
+  m_Size: {x: 1.2400057, y: 1.3449914}
   m_Direction: 0
 --- !u!4 &5332711189895792794 stripped
 Transform:

@@ -163,6 +163,25 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 7430657076640451398}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
@@ -221,6 +240,25 @@ MonoBehaviour:
     _value: 50
     onChanged:
       _PersistentCalls:
+      - _Target: {fileID: 2963959148683415007}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
       - _Target: {fileID: 2963959148683415007}
         _MemberName: OnValueChanged
         _PersistentArguments:
@@ -746,6 +784,25 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 7036431636495312971}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
@@ -804,6 +861,25 @@ MonoBehaviour:
     _value: 1
     onChanged:
       _PersistentCalls:
+      - _Target: {fileID: 7319273068318033148}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
       - _Target: {fileID: 7319273068318033148}
         _MemberName: OnValueChanged
         _PersistentArguments:
@@ -1109,6 +1185,25 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 5980136166529888289}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
@@ -1167,6 +1262,25 @@ MonoBehaviour:
     _value: 1
     onChanged:
       _PersistentCalls:
+      - _Target: {fileID: 4517063284952025217}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
       - _Target: {fileID: 4517063284952025217}
         _MemberName: OnValueChanged
         _PersistentArguments:
@@ -1791,7 +1905,7 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7391154952472627529, guid: b1500a3118d524e4eae3f98f2e0a4bc0,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8825395651676104294}
+      addedObject: {fileID: 5782409828374138478}
   m_SourcePrefab: {fileID: 100100000, guid: b1500a3118d524e4eae3f98f2e0a4bc0, type: 3}
 --- !u!4 &1430013661803766947 stripped
 Transform:
@@ -1889,8 +2003,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _Animator: {fileID: 7341471744507022347}
   _ActionOnDisable: 0
---- !u!58 &8825395651676104294
-CircleCollider2D:
+--- !u!70 &5782409828374138478
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1921,6 +2035,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.062438965}
-  serializedVersion: 2
-  m_Radius: 0.1451478
+  m_Offset: {x: 0.0061200857, y: 0.12574124}
+  m_Size: {x: 1.5988054, y: 2.819079}
+  m_Direction: 0

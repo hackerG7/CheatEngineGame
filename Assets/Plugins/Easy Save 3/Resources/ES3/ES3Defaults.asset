@@ -42,6 +42,7 @@ MonoBehaviour:
     - Coffee.UnmaskForUGUI
     - CW.Common
     - Destructible2D
+    - Destructible2D.SpriteShape
     - Febucci.Attributes.Runtime
     - Febucci.TextAnimator.Demo.Runtime
     - Febucci.TextAnimator.Runtime

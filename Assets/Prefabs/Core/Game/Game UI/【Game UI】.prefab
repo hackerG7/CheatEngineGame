@@ -150,35 +150,40 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wave Displayer
       objectReference: {fileID: 0}
+    - target: {fileID: 1549012013679707494, guid: f4cb6211b046c9141bea3cbce236ea0b,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3225846485272056124, guid: f4cb6211b046c9141bea3cbce236ea0b,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3225846485272056124, guid: f4cb6211b046c9141bea3cbce236ea0b,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3225846485272056124, guid: f4cb6211b046c9141bea3cbce236ea0b,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 45.65
       objectReference: {fileID: 0}
     - target: {fileID: 3225846485272056124, guid: f4cb6211b046c9141bea3cbce236ea0b,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3225846485272056124, guid: f4cb6211b046c9141bea3cbce236ea0b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 177.175
       objectReference: {fileID: 0}
     - target: {fileID: 3225846485272056124, guid: f4cb6211b046c9141bea3cbce236ea0b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     - target: {fileID: 5505351858587837165, guid: f4cb6211b046c9141bea3cbce236ea0b,
         type: 3}
@@ -283,32 +288,32 @@ PrefabInstance:
     - target: {fileID: 8436148200025963418, guid: f4cb6211b046c9141bea3cbce236ea0b,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8436148200025963418, guid: f4cb6211b046c9141bea3cbce236ea0b,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8436148200025963418, guid: f4cb6211b046c9141bea3cbce236ea0b,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 0
+      value: 154.35
       objectReference: {fileID: 0}
     - target: {fileID: 8436148200025963418, guid: f4cb6211b046c9141bea3cbce236ea0b,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8436148200025963418, guid: f4cb6211b046c9141bea3cbce236ea0b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 0
+      value: 77.175
       objectReference: {fileID: 0}
     - target: {fileID: 8436148200025963418, guid: f4cb6211b046c9141bea3cbce236ea0b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -50
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1130,6 +1135,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Timer Displayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 6858289151260673575, guid: 5474480969c3a1f4d86fd10bff446e85,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

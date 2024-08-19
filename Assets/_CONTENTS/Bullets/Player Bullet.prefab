@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1219589505951523892}
   - component: {fileID: 4583664044497985905}
   - component: {fileID: 4449201092356030081}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Player Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: cbe819d8bcbe7b24e96c76779974c236, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.08, y: 0.08}
@@ -339,7 +339,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5527556528165560430}
   - component: {fileID: 1952809402741919692}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Take Damage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -406,7 +406,7 @@ GameObject:
   - component: {fileID: 1023994272152868767}
   - component: {fileID: 4980417807403158337}
   - component: {fileID: 7094595929581304470}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -524,7 +524,7 @@ GameObject:
   - component: {fileID: 8868177157587935381}
   - component: {fileID: 1769766216211799150}
   - component: {fileID: 6337207702863715639}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Bubbles (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

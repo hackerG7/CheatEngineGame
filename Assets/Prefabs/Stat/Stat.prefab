@@ -105,7 +105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runChangeEventOnStart: 1
   observableVar:
-    _value: 3
+    _value: 0
     onChanged:
       _PersistentCalls: []
   onChanged:
@@ -1130,6 +1130,25 @@ MonoBehaviour:
           _Int: 0
           _String: 
           _X: 2
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 534857152067996342}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
           _Y: 0
           _Z: 0
           _W: 0

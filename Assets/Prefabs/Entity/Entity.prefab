@@ -107,9 +107,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderers: []
-  flashMaterial: {fileID: 2100000, guid: 258ed6cefda52ae4baa4246f22ab1033, type: 2}
+  flashMaterial: {fileID: 2100000, guid: d536c948da6a989448cfcb1a45f48c77, type: 2}
   flashTime: 0.1
   flashCooldown: 0.1
+  autoLoadChildren: 1
 --- !u!114 &3600555844276737084
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -156,7 +156,7 @@ MonoBehaviour:
     linkedMultiplierFloatStats: []
     linkedAmplifierFloatStats: []
   projectileSpeed:
-    _value: 15
+    _value: 25
     onChanged:
       _PersistentCalls: []
     flat: 0
@@ -248,14 +248,14 @@ MonoBehaviour:
   projectileDestroyDelay: 0.1
   targetLayerMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 512
   destroyLayerMask:
     serializedVersion: 2
     m_Bits: 0
   lastShootTime: 0
   onShoot:
     _PersistentCalls:
-    - _Target: {fileID: 0}
+    - _Target: {fileID: 1468233295629291584}
       _MemberName: get_position
       _PersistentArguments: []
     - _Target: {fileID: 0}

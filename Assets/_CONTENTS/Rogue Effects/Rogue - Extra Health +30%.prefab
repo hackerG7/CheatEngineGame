@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 1263069534813796754, guid: a693168dccf9c824a8402057a7545901,
         type: 3}
       propertyPath: m_Name
-      value: "\u3010Rouge Effect Base\u3011"
+      value: Rogue - Health +30%
       objectReference: {fileID: 0}
     - target: {fileID: 5932499149450643264, guid: a693168dccf9c824a8402057a7545901,
         type: 3}
@@ -63,6 +63,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7147292132417153394, guid: a693168dccf9c824a8402057a7545901,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: a57385424e8185f49b7a48d65ec38da1,
+        type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -441,6 +441,18 @@ PrefabInstance:
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[3]._PersistentArguments.Array.data[1]._Type
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 1126422190609062153, guid: 929e34c69a7604940913b64adb729016,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 2222350287466812449, guid: 0000000000000000d000000000000000,
+        type: 0}
+    - target: {fileID: 1375137479678353604, guid: 929e34c69a7604940913b64adb729016,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 2222350287466812449, guid: 0000000000000000d000000000000000,
+        type: 0}
     - target: {fileID: 2299060074733345658, guid: 929e34c69a7604940913b64adb729016,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.size
@@ -496,6 +508,24 @@ PrefabInstance:
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[3]._PersistentArguments.Array.data[1]._Type
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 3582360758491547887, guid: 929e34c69a7604940913b64adb729016,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 2222350287466812449, guid: 0000000000000000d000000000000000,
+        type: 0}
+    - target: {fileID: 3973531520749980236, guid: 929e34c69a7604940913b64adb729016,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 2222350287466812449, guid: 0000000000000000d000000000000000,
+        type: 0}
+    - target: {fileID: 4411338751162721161, guid: 929e34c69a7604940913b64adb729016,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 2222350287466812449, guid: 0000000000000000d000000000000000,
+        type: 0}
     - target: {fileID: 5074493271205911644, guid: 929e34c69a7604940913b64adb729016,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -615,12 +645,12 @@ PrefabInstance:
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[2]._Target
       value: 
-      objectReference: {fileID: 2536928454070199497}
+      objectReference: {fileID: 0}
     - target: {fileID: 6219255672885911968, guid: 929e34c69a7604940913b64adb729016,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[3]._Target
       value: 
-      objectReference: {fileID: 2536928454070199497}
+      objectReference: {fileID: 0}
     - target: {fileID: 6219255672885911968, guid: 929e34c69a7604940913b64adb729016,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[2]._MemberName
@@ -661,6 +691,18 @@ PrefabInstance:
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[3]._PersistentArguments.Array.data[1]._Type
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 6320826455809230687, guid: 929e34c69a7604940913b64adb729016,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 2222350287466812449, guid: 0000000000000000d000000000000000,
+        type: 0}
+    - target: {fileID: 6958132126510324551, guid: 929e34c69a7604940913b64adb729016,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 2222350287466812449, guid: 0000000000000000d000000000000000,
+        type: 0}
     - target: {fileID: 7455639912124587318, guid: 929e34c69a7604940913b64adb729016,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.size
@@ -670,12 +712,12 @@ PrefabInstance:
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[2]._Target
       value: 
-      objectReference: {fileID: 1300421084360005727}
+      objectReference: {fileID: 0}
     - target: {fileID: 7455639912124587318, guid: 929e34c69a7604940913b64adb729016,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[3]._Target
       value: 
-      objectReference: {fileID: 1300421084360005727}
+      objectReference: {fileID: 0}
     - target: {fileID: 7455639912124587318, guid: 929e34c69a7604940913b64adb729016,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[2]._MemberName
@@ -716,41 +758,23 @@ PrefabInstance:
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[3]._PersistentArguments.Array.data[1]._Type
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8873235049694252898, guid: 929e34c69a7604940913b64adb729016,
+        type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: 2222350287466812449, guid: 0000000000000000d000000000000000,
+        type: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 929e34c69a7604940913b64adb729016, type: 3}
---- !u!114 &1300421084360005727 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7455639912124587318, guid: 929e34c69a7604940913b64adb729016,
-    type: 3}
-  m_PrefabInstance: {fileID: 8465578630764676457}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ea2244452f3e6f4d8c279a9ae2b78a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2331594612941089818 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6134107321771272563, guid: 929e34c69a7604940913b64adb729016,
     type: 3}
   m_PrefabInstance: {fileID: 8465578630764676457}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2536928454070199497 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6219255672885911968, guid: 929e34c69a7604940913b64adb729016,
-    type: 3}
-  m_PrefabInstance: {fileID: 8465578630764676457}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ea2244452f3e6f4d8c279a9ae2b78a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3298952635733195140 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6391730575948578029, guid: 929e34c69a7604940913b64adb729016,

@@ -1014,7 +1014,7 @@ GameObject:
   m_Layer: 0
   m_Name: Stat
   m_TagString: Untagged
-  m_Icon: {fileID: 2222350287466812449, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: -1282333051292340922, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1078,6 +1078,25 @@ MonoBehaviour:
           _Int: 0
           _String: 
           _X: 2
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 534857152067996342}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
           _Y: 0
           _Z: 0
           _W: 0
@@ -1502,6 +1521,43 @@ PrefabInstance:
       propertyPath: counterparts.dictionary.values.Array.data[0]
       value: 
       objectReference: {fileID: 8635349736293095731}
+    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.size
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[18]._MemberName
+      value: OnDragTheCounterpartHereToEntangleChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[18]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[18]._PersistentArguments.Array.data[0]._Type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[18]._PersistentArguments.Array.data[1]._Type
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[18]._PersistentArguments.Array.data[0]._String
+      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 153907319395189514, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: dragTheCounterpartHereToEntangle.onChanged._PersistentCalls.Array.data[18]._PersistentArguments.Array.data[1]._String
+      value: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+        PublicKeyToken=null
+      objectReference: {fileID: 0}
     - target: {fileID: 323894221627164140, guid: 920647ee513e59640a349dfb28fb4f7d,
         type: 3}
       propertyPath: counterparts.dictionary.values.Array.data[0]

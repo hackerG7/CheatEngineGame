@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Extra Attack Damage []+1
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":336.8686,"y":246.916},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-195.0,"y":-75.0},"guid":"a7a22ed8-4afb-489f-aec1-5496f451bf69","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"9"},{"nest":{"source":"Macro","macro":1,"embed":null},"defaultValues":{},"position":{"x":-206.0,"y":228.0},"guid":"3fc894f4-a03c-4f1a-b537-1c96fed26693","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"12"},{"nest":{"source":"Macro","macro":2,"embed":null},"defaultValues":{"statId":{"$content":3,"$type":"UnityEngine.Object"}},"position":{"x":176.0,"y":7.0},"guid":"20a3dc9d-ddae-4fcf-bab6-2a9e12fe8465","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"15"},{"chainable":false,"parameterNames":["value"],"member":{"name":"AddValue","parameterTypes":["System.Single"],"targetType":"FloatStatHolder","targetTypeName":"FloatStatHolder","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":30.0,"$type":"System.Single"}},"position":{"x":538.0,"y":-75.0},"guid":"c57790d5-5bcf-4470-8ba1-717e727bdb76","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"18"},{"nest":{"source":"Macro","macro":4,"embed":null},"defaultValues":{"statId":{"$content":5,"$type":"UnityEngine.Object"}},"position":{"x":175.0,"y":334.0},"guid":"df184132-5cb6-406b-b274-1c594a097c95","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"22"},{"chainable":false,"parameterNames":["value"],"member":{"name":"SubtractValue","parameterTypes":["System.Single"],"targetType":"FloatStatHolder","targetTypeName":"FloatStatHolder","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":30.0,"$type":"System.Single"}},"position":{"x":538.0,"y":224.0},"guid":"31509796-5e84-49be-b2ee-ef911f7b14d0","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"25"},{"sourceUnit":{"$ref":"9"},"sourceKey":"output","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"49a20044-ebcc-49c3-9414-107cdc24e125","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"output","destinationUnit":{"$ref":"25"},"destinationKey":"enter","guid":"5e1bfd9b-413e-468a-8051-d260a16da21e","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"statValue","destinationUnit":{"$ref":"18"},"destinationKey":"target","guid":"6e111888-5c61-47fc-93d1-217140a32c08","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"statValue","destinationUnit":{"$ref":"25"},"destinationKey":"target","guid":"40f6e879-8483-40b9-a6f4-0a1fe3ced2da","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 4bab9827f6567414e80a0a379423563e, type: 2}
+    - {fileID: 11400000, guid: 7c9991b1f24e46749a32bf4f41c7dd7e, type: 2}
+    - {fileID: 11400000, guid: 3f834fda076d4e749b8a7052341e7984, type: 2}
+    - {fileID: 11400000, guid: 8dd027d89a7dcd8419587b315c9e0895, type: 2}
+    - {fileID: 11400000, guid: 3f834fda076d4e749b8a7052341e7984, type: 2}
+    - {fileID: 11400000, guid: 8dd027d89a7dcd8419587b315c9e0895, type: 2}

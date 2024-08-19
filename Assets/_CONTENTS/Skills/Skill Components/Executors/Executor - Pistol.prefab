@@ -56,7 +56,7 @@ Transform:
   m_GameObject: {fileID: 2231712610752016452}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.07580002, y: 0, z: 0}
+  m_LocalPosition: {x: 0.431, y: 0.071, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -114,7 +114,7 @@ MonoBehaviour:
   onExecute:
     _PersistentCalls:
     - _Target: {fileID: 4805101360117500266}
-      _MemberName: Shoot
+      _MemberName: TryShoot
       _PersistentArguments: []
   executeDelay: 0.05
 --- !u!114 &4805101360117500266
@@ -229,6 +229,16 @@ MonoBehaviour:
     linkedFLatFloatStats: []
     linkedMultiplierFloatStats: []
     linkedAmplifierFloatStats: []
+  shootRate:
+    _value: 2
+    onChanged:
+      _PersistentCalls: []
+    flat: 0
+    multiplier: 1
+    amplifier: 1
+    linkedFLatFloatStats: []
+    linkedMultiplierFloatStats: []
+    linkedAmplifierFloatStats: []
   projectileDestroyDelay: 0.1
   targetLayerMask:
     serializedVersion: 2
@@ -236,6 +246,7 @@ MonoBehaviour:
   destroyLayerMask:
     serializedVersion: 2
     m_Bits: 0
+  lastShootTime: 0
   onShoot:
     _PersistentCalls: []
   onProjectileShoot:

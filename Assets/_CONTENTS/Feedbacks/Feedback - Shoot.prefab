@@ -210,7 +210,7 @@ MonoBehaviour:
           ButtonText: Automatic Shaker Setup
         Owner: {fileID: 7946536847393038422}
         DebugActive: 0
-        Sfx: {fileID: 8300000, guid: 5726a1919a76249248b71f2c0db2de16, type: 3}
+        Sfx: {fileID: 8300000, guid: 5ac9dc3d67138d8458721fb53fdbf3bc, type: 3}
         RandomSfx: []
         SequentialOrder: 0
         SequentialOrderHoldLast: 0
@@ -219,7 +219,7 @@ MonoBehaviour:
         SoundDataSO: {fileID: 0}
         MinVolume: 1
         MaxVolume: 1
-        MinPitch: 1
+        MinPitch: 0.6
         MaxPitch: 1
         MmSoundManagerTrack: 0
         ID: 0
@@ -320,7 +320,7 @@ MonoBehaviour:
       type: {class: MMF_CinemachineImpulse, ns: MoreMountains.FeedbacksForThirdParty,
         asm: MoreMountains.Tools}
       data:
-        Active: 1
+        Active: 0
         UniqueID: -1956504261
         Label: Cinemachine Impulse
         ChannelMode: 0
@@ -423,7 +423,7 @@ MonoBehaviour:
               m_PostInfinity: 2
               m_RotationOrder: 4
             m_AttackTime: 0
-            m_SustainTime: 0.1
+            m_SustainTime: 0.05
             m_DecayTime: 0.7
             m_ScaleWithImpact: 1
             m_HoldForever: 0
@@ -432,5 +432,5 @@ MonoBehaviour:
           m_DissipationMode: 2
           m_DissipationDistance: 100
           m_PropagationSpeed: 343
-        Velocity: {x: 5, y: 5, z: 5}
+        Velocity: {x: 2, y: 2, z: 2}
         ClearImpulseOnStop: 0

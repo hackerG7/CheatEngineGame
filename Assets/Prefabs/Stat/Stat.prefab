@@ -590,6 +590,7 @@ GameObject:
   - component: {fileID: 901221771226638079}
   - component: {fileID: 5246856966212730036}
   - component: {fileID: 4807957652920764557}
+  - component: {fileID: 828591067725675619}
   m_Layer: 0
   m_Name: Letter Builder
   m_TagString: Untagged
@@ -966,6 +967,27 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
   syncSiblingIndex: 1
   resetLocalPosition: 1
   resetLocalScale: 1
@@ -990,6 +1012,36 @@ MonoBehaviour:
       - m_Target: {fileID: 901221771226638079}
         m_TargetAssemblyTypeName: HierarchyStringBuilder, Assembly-CSharp
         m_MethodName: LoadStringFromChildren
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &828591067725675619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8876756017399727630}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2300d56ac22446e59de6de2fb87235d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scriptableEvent: {fileID: 0}
+  scriptableEvents:
+  - {fileID: 11400000, guid: 5b84350b0659df94382620e8bb0fda88, type: 2}
+  onRaised:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 901221771226638079}
+        m_TargetAssemblyTypeName: HierarchyStringBuilder, Assembly-CSharp
+        m_MethodName: TryRebuild
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1078,6 +1130,25 @@ MonoBehaviour:
           _Int: 0
           _String: 
           _X: 2
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 534857152067996342}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
           _Y: 0
           _Z: 0
           _W: 0
@@ -1666,6 +1737,46 @@ PrefabInstance:
     - target: {fileID: 2000840093946361506, guid: 920647ee513e59640a349dfb28fb4f7d,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2764099014324480687, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2764099014324480687, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2764099014324480687, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2764099014324480687, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568768133066610203, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568768133066610203, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568768133066610203, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8568768133066610203, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8816996463208032130, guid: 920647ee513e59640a349dfb28fb4f7d,

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[DefaultExecutionOrder(-100)]
 public class StatOwner : Owner
 {
     public Transform statListContainer;
@@ -10,6 +11,9 @@ public class StatOwner : Owner
     public void AddFloatStat(FloatStatHolder stat)
     {
         floatStats.Add(stat.statId.id, stat);
+    }
+    void OnEnable(){
+        LoadStatsInChildren();
     }
     void Awake(){
         statListContainer.OnTransformChildrenChanged(LoadStatsInChildren);

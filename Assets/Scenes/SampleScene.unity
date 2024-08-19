@@ -175,6 +175,109 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &947103906 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8269941873379033086, guid: bace0572d29310347b7b3fa3204aa4bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 3173175622730678446}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ea2244452f3e6f4d8c279a9ae2b78a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1251472590 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3399087924623292244, guid: bace0572d29310347b7b3fa3204aa4bb,
+    type: 3}
+  m_PrefabInstance: {fileID: 3173175622730678446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1778460845
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1778460846}
+  - component: {fileID: 1778460848}
+  - component: {fileID: 1778460847}
+  - component: {fileID: 1778460849}
+  m_Layer: 0
+  m_Name: Projectile Speed []+1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1778460846
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778460845}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1251472590}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1778460847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778460845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: d64652a81a86f6249aa55227fbf2ae18, type: 2}
+--- !u!114 &1778460848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778460845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &1778460849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778460845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33612e8aa8476ab428d78f727eac1d28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previousEffectOwner: {fileID: 0}
+  effectOwner: {fileID: 0}
+  onApply:
+    m_PersistentCalls:
+      m_Calls: []
+  onRemove:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &206006484895644732
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -451,6 +554,26 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 880488158829872473, guid: bace0572d29310347b7b3fa3204aa4bb,
+        type: 3}
+      propertyPath: floatStats.dictionary.keys.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880488158829872473, guid: bace0572d29310347b7b3fa3204aa4bb,
+        type: 3}
+      propertyPath: floatStats.dictionary.values.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 880488158829872473, guid: bace0572d29310347b7b3fa3204aa4bb,
+        type: 3}
+      propertyPath: floatStats.dictionary.keys.Array.data[0]
+      value: Projectile Speed
+      objectReference: {fileID: 0}
+    - target: {fileID: 880488158829872473, guid: bace0572d29310347b7b3fa3204aa4bb,
+        type: 3}
+      propertyPath: floatStats.dictionary.values.Array.data[0]
+      value: 
+      objectReference: {fileID: 947103906}
     - target: {fileID: 1157383524619961710, guid: bace0572d29310347b7b3fa3204aa4bb,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1435,7 +1558,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 5320387356853915633, guid: bace0572d29310347b7b3fa3204aa4bb, type: 3}
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3399087924623292244, guid: bace0572d29310347b7b3fa3204aa4bb,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1778460846}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bace0572d29310347b7b3fa3204aa4bb, type: 3}
 --- !u!1001 &6713110777890736829

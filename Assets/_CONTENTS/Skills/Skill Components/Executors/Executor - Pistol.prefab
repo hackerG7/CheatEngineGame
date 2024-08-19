@@ -142,6 +142,9 @@ MonoBehaviour:
     flat: 0
     multiplier: 1
     amplifier: 1
+    linkedFLatFloatStats: []
+    linkedMultiplierFloatStats: []
+    linkedAmplifierFloatStats: []
   projectileMaxPierceCount:
     _value: 1
     onChanged:
@@ -149,6 +152,9 @@ MonoBehaviour:
     flat: 0
     multiplier: 1
     amplifier: 1
+    linkedFLatFloatStats: []
+    linkedMultiplierFloatStats: []
+    linkedAmplifierFloatStats: []
   projectileSpeed:
     _value: 15
     onChanged:
@@ -248,7 +254,32 @@ MonoBehaviour:
     m_Bits: 0
   lastShootTime: 0
   onShoot:
-    _PersistentCalls: []
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MemberName: get_position
+      _PersistentArguments: []
+    - _Target: {fileID: 0}
+      _MemberName: GameObject_FeedbackExtension, GK.Feedback, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null.PlayFeedback
+      _PersistentArguments:
+      - _Type: 13
+        _Int: 0
+        _String: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 3457042993412523234, guid: 6c5a0a0b78548f442a057cbb9f7946d9,
+          type: 3}
+      - _Type: 15
+        _Int: 0
+        _String: 
+        _X: 7
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
   onProjectileShoot:
     _PersistentCalls: []
   onProjectileHit:

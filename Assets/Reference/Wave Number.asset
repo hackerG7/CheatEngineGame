@@ -18,6 +18,6 @@ MonoBehaviour:
   _saveGuid: 0
   resetType: 0
   observableVar:
-    _value: 1
+    _value: 0
     onChanged:
       _PersistentCalls: []

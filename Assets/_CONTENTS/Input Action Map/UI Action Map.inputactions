@@ -26,6 +26,28 @@
                     "action": "Open Stat Menu",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "692d363b-29df-4263-ad21-1d0284474ea2",
+                    "path": "<Keyboard>/tab",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Open Stat Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "14129804-a64c-4e99-b058-f557ac217640",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Open Stat Menu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         }

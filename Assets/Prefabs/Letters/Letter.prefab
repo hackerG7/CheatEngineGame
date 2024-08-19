@@ -199,6 +199,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: Letter Display
       objectReference: {fileID: 0}
+    - target: {fileID: 2220130953415689873, guid: 6774126e62187c249af74598e897e0a6,
+        type: 3}
+      propertyPath: m_fontSize
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 2220130953415689873, guid: 6774126e62187c249af74598e897e0a6,
+        type: 3}
+      propertyPath: m_fontSizeBase
+      value: 35
+      objectReference: {fileID: 0}
     - target: {fileID: 4990458613615059622, guid: 6774126e62187c249af74598e897e0a6,
         type: 3}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.size

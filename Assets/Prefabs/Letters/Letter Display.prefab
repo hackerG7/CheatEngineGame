@@ -215,7 +215,7 @@ MonoBehaviour:
         DebugActive: 0
         Mode: 2
         AnimateScaleTarget: {fileID: 3469906246005047655}
-        AnimateScaleDuration: 0.2
+        AnimateScaleDuration: 0.005
         RemapCurveZero: 0
         RemapCurveOne: 1
         Offset: 0
@@ -1096,6 +1096,27 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 0}
+        _MemberName: OnDragTheCounterpartHereToEntangleChanged
+        _PersistentArguments:
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 13
+          _Int: 0
+          _String: EntangledTransform, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
+            PublicKeyToken=null
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
   syncSiblingIndex: 0
   resetLocalPosition: 1
   resetLocalScale: 0
@@ -1335,7 +1356,7 @@ MonoBehaviour:
         DebugActive: 0
         Mode: 2
         AnimateScaleTarget: {fileID: 3469906246005047655}
-        AnimateScaleDuration: 0.2
+        AnimateScaleDuration: 0.005
         RemapCurveZero: 0
         RemapCurveOne: 1
         Offset: 0
@@ -1622,8 +1643,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6595daaee4ddd77438998ff5faf16415, type: 2}
+  m_sharedMaterial: {fileID: -7121387454728094533, guid: 6595daaee4ddd77438998ff5faf16415,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []

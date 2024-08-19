@@ -396,7 +396,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   runChangeEventOnStart: 1
   observableVar:
-    _value: 1
+    _value: 10
     onChanged:
       _PersistentCalls: []
     flat: 0

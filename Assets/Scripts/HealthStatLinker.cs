@@ -22,5 +22,6 @@ public class HealthStatLinker : MonoBehaviour
             healthOwner.health.Value = value;
         };
         gameObject.GetStatHolder(healthStatId.id).onChanged.Invoke(gameObject.GetStatHolder(healthStatId.id).Value);
+        healthOwner.health = healthOwner.maxHealth;
     }
 }

@@ -10,8 +10,13 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 216727876128863152, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
+      propertyPath: observableVar._value
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 216727876128863152, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.size
-      value: 21
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 216727876128863152, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
@@ -61,6 +66,16 @@ PrefabInstance:
     - target: {fileID: 216727876128863152, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[20]._Target
+      value: 
+      objectReference: {fileID: 1597877927086865622}
+    - target: {fileID: 216727876128863152, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[21]._Target
+      value: 
+      objectReference: {fileID: 1597877927086865622}
+    - target: {fileID: 216727876128863152, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._Target
       value: 
       objectReference: {fileID: 1597877927086865622}
     - target: {fileID: 216727876128863152, guid: e42c87006696e704ea05707f01e28f13,
@@ -115,6 +130,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 216727876128863152, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[21]._MemberName
+      value: OnValueChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 216727876128863152, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._MemberName
+      value: OnValueChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 216727876128863152, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[11]._PersistentArguments.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -161,6 +186,16 @@ PrefabInstance:
     - target: {fileID: 216727876128863152, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[20]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 216727876128863152, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[21]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 216727876128863152, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._PersistentArguments.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 216727876128863152, guid: e42c87006696e704ea05707f01e28f13,
@@ -263,10 +298,30 @@ PrefabInstance:
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[20]._PersistentArguments.Array.data[1]._Type
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 216727876128863152, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[21]._PersistentArguments.Array.data[0]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 216727876128863152, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[21]._PersistentArguments.Array.data[1]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 216727876128863152, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._PersistentArguments.Array.data[0]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 216727876128863152, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._PersistentArguments.Array.data[1]._Type
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2421048728239414286, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.size
-      value: 24
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 2421048728239414286, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
@@ -316,6 +371,16 @@ PrefabInstance:
     - target: {fileID: 2421048728239414286, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[23]._Target
+      value: 
+      objectReference: {fileID: 3797800734263202664}
+    - target: {fileID: 2421048728239414286, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[24]._Target
+      value: 
+      objectReference: {fileID: 3797800734263202664}
+    - target: {fileID: 2421048728239414286, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[25]._Target
       value: 
       objectReference: {fileID: 3797800734263202664}
     - target: {fileID: 2421048728239414286, guid: e42c87006696e704ea05707f01e28f13,
@@ -370,6 +435,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2421048728239414286, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[24]._MemberName
+      value: OnValueChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421048728239414286, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[25]._MemberName
+      value: OnValueChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421048728239414286, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[14]._PersistentArguments.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -416,6 +491,16 @@ PrefabInstance:
     - target: {fileID: 2421048728239414286, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[23]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421048728239414286, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[24]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421048728239414286, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[25]._PersistentArguments.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2421048728239414286, guid: e42c87006696e704ea05707f01e28f13,
@@ -518,10 +603,30 @@ PrefabInstance:
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[23]._PersistentArguments.Array.data[1]._Type
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2421048728239414286, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[24]._PersistentArguments.Array.data[0]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421048728239414286, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[24]._PersistentArguments.Array.data[1]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421048728239414286, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[25]._PersistentArguments.Array.data[0]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2421048728239414286, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[25]._PersistentArguments.Array.data[1]._Type
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2890764378264211689, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.size
-      value: 21
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 2890764378264211689, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
@@ -571,6 +676,16 @@ PrefabInstance:
     - target: {fileID: 2890764378264211689, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[20]._Target
+      value: 
+      objectReference: {fileID: 4409934130380038031}
+    - target: {fileID: 2890764378264211689, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[21]._Target
+      value: 
+      objectReference: {fileID: 4409934130380038031}
+    - target: {fileID: 2890764378264211689, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._Target
       value: 
       objectReference: {fileID: 4409934130380038031}
     - target: {fileID: 2890764378264211689, guid: e42c87006696e704ea05707f01e28f13,
@@ -625,6 +740,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2890764378264211689, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[21]._MemberName
+      value: OnValueChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2890764378264211689, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._MemberName
+      value: OnValueChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2890764378264211689, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[11]._PersistentArguments.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -671,6 +796,16 @@ PrefabInstance:
     - target: {fileID: 2890764378264211689, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[20]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2890764378264211689, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[21]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2890764378264211689, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._PersistentArguments.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2890764378264211689, guid: e42c87006696e704ea05707f01e28f13,
@@ -773,6 +908,26 @@ PrefabInstance:
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[20]._PersistentArguments.Array.data[1]._Type
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2890764378264211689, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[21]._PersistentArguments.Array.data[0]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2890764378264211689, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[21]._PersistentArguments.Array.data[1]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2890764378264211689, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._PersistentArguments.Array.data[0]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2890764378264211689, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._PersistentArguments.Array.data[1]._Type
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2951828096795698608, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar._value
@@ -781,7 +936,7 @@ PrefabInstance:
     - target: {fileID: 2951828096795698608, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.size
-      value: 22
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 2951828096795698608, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
@@ -831,6 +986,16 @@ PrefabInstance:
     - target: {fileID: 2951828096795698608, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[21]._Target
+      value: 
+      objectReference: {fileID: 4456933447811771094}
+    - target: {fileID: 2951828096795698608, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._Target
+      value: 
+      objectReference: {fileID: 4456933447811771094}
+    - target: {fileID: 2951828096795698608, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[23]._Target
       value: 
       objectReference: {fileID: 4456933447811771094}
     - target: {fileID: 2951828096795698608, guid: e42c87006696e704ea05707f01e28f13,
@@ -885,6 +1050,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2951828096795698608, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._MemberName
+      value: OnValueChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951828096795698608, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[23]._MemberName
+      value: OnValueChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951828096795698608, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[12]._PersistentArguments.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -931,6 +1106,16 @@ PrefabInstance:
     - target: {fileID: 2951828096795698608, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[21]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951828096795698608, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951828096795698608, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[23]._PersistentArguments.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2951828096795698608, guid: e42c87006696e704ea05707f01e28f13,
@@ -1033,6 +1218,26 @@ PrefabInstance:
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[21]._PersistentArguments.Array.data[1]._Type
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 2951828096795698608, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._PersistentArguments.Array.data[0]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951828096795698608, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._PersistentArguments.Array.data[1]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951828096795698608, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[23]._PersistentArguments.Array.data[0]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2951828096795698608, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[23]._PersistentArguments.Array.data[1]._Type
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3268265201596406281, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar._value
@@ -1041,7 +1246,7 @@ PrefabInstance:
     - target: {fileID: 3268265201596406281, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.size
-      value: 19
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 3268265201596406281, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
@@ -1056,6 +1261,11 @@ PrefabInstance:
     - target: {fileID: 3268265201596406281, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[18]._Target
+      value: 
+      objectReference: {fileID: 4068440113834251631}
+    - target: {fileID: 3268265201596406281, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[20]._Target
       value: 
       objectReference: {fileID: 4068440113834251631}
     - target: {fileID: 3268265201596406281, guid: e42c87006696e704ea05707f01e28f13,
@@ -1075,6 +1285,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3268265201596406281, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[20]._MemberName
+      value: OnValueChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268265201596406281, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[16]._PersistentArguments.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -1086,6 +1301,11 @@ PrefabInstance:
     - target: {fileID: 3268265201596406281, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[18]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268265201596406281, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[20]._PersistentArguments.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3268265201596406281, guid: e42c87006696e704ea05707f01e28f13,
@@ -1116,6 +1336,16 @@ PrefabInstance:
     - target: {fileID: 3268265201596406281, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[18]._PersistentArguments.Array.data[1]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268265201596406281, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[20]._PersistentArguments.Array.data[0]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3268265201596406281, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[20]._PersistentArguments.Array.data[1]._Type
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4828474234966686504, guid: e42c87006696e704ea05707f01e28f13,
@@ -1181,7 +1411,7 @@ PrefabInstance:
     - target: {fileID: 7064860346026395685, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.size
-      value: 21
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 7064860346026395685, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
@@ -1231,6 +1461,16 @@ PrefabInstance:
     - target: {fileID: 7064860346026395685, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[20]._Target
+      value: 
+      objectReference: {fileID: 8585646863523465027}
+    - target: {fileID: 7064860346026395685, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[21]._Target
+      value: 
+      objectReference: {fileID: 8585646863523465027}
+    - target: {fileID: 7064860346026395685, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._Target
       value: 
       objectReference: {fileID: 8585646863523465027}
     - target: {fileID: 7064860346026395685, guid: e42c87006696e704ea05707f01e28f13,
@@ -1285,6 +1525,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7064860346026395685, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[21]._MemberName
+      value: OnValueChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 7064860346026395685, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._MemberName
+      value: OnValueChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 7064860346026395685, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[11]._PersistentArguments.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -1331,6 +1581,16 @@ PrefabInstance:
     - target: {fileID: 7064860346026395685, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[20]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7064860346026395685, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[21]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7064860346026395685, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._PersistentArguments.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7064860346026395685, guid: e42c87006696e704ea05707f01e28f13,
@@ -1433,6 +1693,26 @@ PrefabInstance:
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[20]._PersistentArguments.Array.data[1]._Type
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 7064860346026395685, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[21]._PersistentArguments.Array.data[0]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7064860346026395685, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[21]._PersistentArguments.Array.data[1]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7064860346026395685, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._PersistentArguments.Array.data[0]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7064860346026395685, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._PersistentArguments.Array.data[1]._Type
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 7800717246782109357, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar._value
@@ -1441,7 +1721,7 @@ PrefabInstance:
     - target: {fileID: 7800717246782109357, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.size
-      value: 23
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 7800717246782109357, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
@@ -1491,6 +1771,16 @@ PrefabInstance:
     - target: {fileID: 7800717246782109357, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._Target
+      value: 
+      objectReference: {fileID: 8749511496386689483}
+    - target: {fileID: 7800717246782109357, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[23]._Target
+      value: 
+      objectReference: {fileID: 8749511496386689483}
+    - target: {fileID: 7800717246782109357, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[24]._Target
       value: 
       objectReference: {fileID: 8749511496386689483}
     - target: {fileID: 7800717246782109357, guid: e42c87006696e704ea05707f01e28f13,
@@ -1545,6 +1835,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7800717246782109357, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[23]._MemberName
+      value: OnValueChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 7800717246782109357, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[24]._MemberName
+      value: OnValueChanged
+      objectReference: {fileID: 0}
+    - target: {fileID: 7800717246782109357, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[13]._PersistentArguments.Array.size
       value: 2
       objectReference: {fileID: 0}
@@ -1591,6 +1891,16 @@ PrefabInstance:
     - target: {fileID: 7800717246782109357, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7800717246782109357, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[23]._PersistentArguments.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7800717246782109357, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[24]._PersistentArguments.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7800717246782109357, guid: e42c87006696e704ea05707f01e28f13,
@@ -1691,6 +2001,26 @@ PrefabInstance:
     - target: {fileID: 7800717246782109357, guid: e42c87006696e704ea05707f01e28f13,
         type: 3}
       propertyPath: observableVar.onChanged._PersistentCalls.Array.data[22]._PersistentArguments.Array.data[1]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7800717246782109357, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[23]._PersistentArguments.Array.data[0]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7800717246782109357, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[23]._PersistentArguments.Array.data[1]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7800717246782109357, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[24]._PersistentArguments.Array.data[0]._Type
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7800717246782109357, guid: e42c87006696e704ea05707f01e28f13,
+        type: 3}
+      propertyPath: observableVar.onChanged._PersistentCalls.Array.data[24]._PersistentArguments.Array.data[1]._Type
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7853830768159144454, guid: e42c87006696e704ea05707f01e28f13,

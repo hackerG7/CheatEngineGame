@@ -144,6 +144,8 @@ MonoBehaviour:
         _Z: 0
         _W: 0
         _Object: {fileID: 0}
+  onChangedCompared:
+    _PersistentCalls: []
 --- !u!114 &7673617593082426041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -749,6 +751,8 @@ MonoBehaviour:
     onChanged:
       _PersistentCalls: []
   onChanged:
+    _PersistentCalls: []
+  onChangedCompared:
     _PersistentCalls: []
 --- !u!114 &5802796205689349863
 MonoBehaviour:
@@ -2115,6 +2119,25 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 534857152067996342}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
@@ -2122,6 +2145,8 @@ MonoBehaviour:
     linkedMultiplierFloatStats: []
     linkedAmplifierFloatStats: []
   onChanged:
+    _PersistentCalls: []
+  onChangedCompared:
     _PersistentCalls: []
   statId: {fileID: 0}
 --- !u!114 &4650560528503569141
@@ -2143,6 +2168,8 @@ MonoBehaviour:
     onChanged:
       _PersistentCalls: []
   onChanged:
+    _PersistentCalls: []
+  onChangedCompared:
     _PersistentCalls: []
 --- !u!114 &8635349736293095731
 MonoBehaviour:
@@ -2509,7 +2536,22 @@ PrefabInstance:
     - target: {fileID: 1166990873999368087, guid: 920647ee513e59640a349dfb28fb4f7d,
         type: 3}
       propertyPath: m_fontSize
-      value: 15
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1166990873999368087, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.47058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 1166990873999368087, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.5568628
+      objectReference: {fileID: 0}
+    - target: {fileID: 1166990873999368087, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.6627451
       objectReference: {fileID: 0}
     - target: {fileID: 1166990873999368087, guid: 920647ee513e59640a349dfb28fb4f7d,
         type: 3}
@@ -2520,6 +2562,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_fontSizeMin
       value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 1166990873999368087, guid: 920647ee513e59640a349dfb28fb4f7d,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4286090921
       objectReference: {fileID: 0}
     - target: {fileID: 1166990873999368087, guid: 920647ee513e59640a349dfb28fb4f7d,
         type: 3}

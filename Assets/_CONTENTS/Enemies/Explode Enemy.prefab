@@ -220,6 +220,25 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 7430657076640451398}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
@@ -278,6 +297,25 @@ MonoBehaviour:
     _value: 50
     onChanged:
       _PersistentCalls:
+      - _Target: {fileID: 2963959148683415007}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
       - _Target: {fileID: 2963959148683415007}
         _MemberName: OnValueChanged
         _PersistentArguments:
@@ -975,6 +1013,25 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 954785756709770576}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
@@ -1298,6 +1355,25 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 6942651067512317148}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
@@ -1307,235 +1383,6 @@ MonoBehaviour:
   onChanged:
     _PersistentCalls: []
   statId: {fileID: 11400000, guid: 192e1b58450e647459265f1d289823a1, type: 2}
---- !u!1 &4559630138567674567
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5469603426824211053}
-  - component: {fileID: 7036431636495312971}
-  m_Layer: 0
-  m_Name: Health
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5469603426824211053
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4559630138567674567}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1430013661803766947}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7036431636495312971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4559630138567674567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ea2244452f3e6f4d8c279a9ae2b78a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  runChangeEventOnStart: 1
-  observableVar:
-    _value: 10
-    onChanged:
-      _PersistentCalls:
-      - _Target: {fileID: 7036431636495312971}
-        _MemberName: OnValueChanged
-        _PersistentArguments:
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 0
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 0
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
-      - _Target: {fileID: 7036431636495312971}
-        _MemberName: OnValueChanged
-        _PersistentArguments:
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 0
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 0
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
-      - _Target: {fileID: 7036431636495312971}
-        _MemberName: OnValueChanged
-        _PersistentArguments:
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 0
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 0
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
-      - _Target: {fileID: 7036431636495312971}
-        _MemberName: OnValueChanged
-        _PersistentArguments:
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 0
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 0
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
-      - _Target: {fileID: 7036431636495312971}
-        _MemberName: OnValueChanged
-        _PersistentArguments:
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 0
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 0
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
-      - _Target: {fileID: 7036431636495312971}
-        _MemberName: OnValueChanged
-        _PersistentArguments:
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 0
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 0
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
-      - _Target: {fileID: 7036431636495312971}
-        _MemberName: OnValueChanged
-        _PersistentArguments:
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 0
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 0
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
-      - _Target: {fileID: 7036431636495312971}
-        _MemberName: OnValueChanged
-        _PersistentArguments:
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 0
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 0
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
-      - _Target: {fileID: 7036431636495312971}
-        _MemberName: OnValueChanged
-        _PersistentArguments:
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 0
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
-        - _Type: 5
-          _Int: 0
-          _String: 
-          _X: 0
-          _Y: 0
-          _Z: 0
-          _W: 0
-          _Object: {fileID: 0}
-    flat: 0
-    multiplier: 1
-    amplifier: 1
-    linkedFLatFloatStats: []
-    linkedMultiplierFloatStats: []
-    linkedAmplifierFloatStats: []
-  onChanged:
-    _PersistentCalls: []
-  statId: {fileID: 11400000, guid: 7d16060d4f17d7e489c9030ebe456262, type: 2}
 --- !u!1 &4765244617594616662
 GameObject:
   m_ObjectHideFlags: 0
@@ -1585,6 +1432,25 @@ MonoBehaviour:
     _value: 1
     onChanged:
       _PersistentCalls:
+      - _Target: {fileID: 7319273068318033148}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
       - _Target: {fileID: 7319273068318033148}
         _MemberName: OnValueChanged
         _PersistentArguments:
@@ -2004,6 +1870,25 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 5980136166529888289}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
@@ -2062,6 +1947,25 @@ MonoBehaviour:
     _value: 1
     onChanged:
       _PersistentCalls:
+      - _Target: {fileID: 4517063284952025217}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
       - _Target: {fileID: 4517063284952025217}
         _MemberName: OnValueChanged
         _PersistentArguments:
@@ -2688,7 +2592,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 1859820210150873625, guid: b1500a3118d524e4eae3f98f2e0a4bc0, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 8493273095725530214, guid: b1500a3118d524e4eae3f98f2e0a4bc0,
@@ -2699,10 +2604,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 9120392962991231583}
-    - targetCorrespondingSourceObject: {fileID: 5344852580476718285, guid: b1500a3118d524e4eae3f98f2e0a4bc0,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5469603426824211053}
     - targetCorrespondingSourceObject: {fileID: 5344852580476718285, guid: b1500a3118d524e4eae3f98f2e0a4bc0,
         type: 3}
       insertIndex: -1

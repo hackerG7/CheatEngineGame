@@ -12,8 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
-  - _ENABLEHOLOGRAM_ON
-  - _PIXELPERFECTUV_ON
+  - _ENABLEWIGGLE_ON
   - _SHADERFADING_NONE
   - _SHADERSPACE_UI_GRAPHIC
   - _TEXTURELAYER1SHEETTOGGLE_ON
@@ -201,7 +200,7 @@ Material:
     - _EnableGaussianBlur: 0
     - _EnableGlitch: 0
     - _EnableHalftone: 0
-    - _EnableHologram: 1
+    - _EnableHologram: 0
     - _EnableHue: 0
     - _EnableInkSpread: 0
     - _EnableInnerOutline: 0
@@ -241,7 +240,7 @@ Material:
     - _EnableUVScale: 0
     - _EnableUVScroll: 0
     - _EnableVibrate: 0
-    - _EnableWiggle: 0
+    - _EnableWiggle: 1
     - _EnableWind: 0
     - _EnableWorldTiling: 0
     - _EnchantedBrightness: 1
@@ -324,11 +323,11 @@ Material:
     - _PixelOutlineTextureToggle: 0
     - _PixelOutlineWidth: 1
     - _PixelPerfectSpace: 0
-    - _PixelPerfectUV: 1
+    - _PixelPerfectUV: 0
     - _PixelateFade: 1
     - _PixelatePixelDensity: 16
     - _PixelatePixelsPerUnit: 100
-    - _PixelsPerUnit: 16
+    - _PixelsPerUnit: 200
     - _PoisonDensity: 3
     - _PoisonFade: 1
     - _PoisonNoiseBrightness: 2
@@ -460,11 +459,11 @@ Material:
     - _VibrateFrequency: 100
     - _VibrateOffset: 0.04
     - _VibrateRotation: 4
-    - _WiggleFade: 1
+    - _WiggleFade: 0.95
     - _WiggleFixedGroundToggle: 0
-    - _WiggleFrequency: 2
+    - _WiggleFrequency: 1.01
     - _WiggleOffset: 0.02
-    - _WiggleSpeed: 2
+    - _WiggleSpeed: 0.9
     - _WindFlip: 0
     - _WindHighQualityNoise: 0
     - _WindIsParallax: 0

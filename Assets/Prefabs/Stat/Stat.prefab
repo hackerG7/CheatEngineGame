@@ -109,7 +109,40 @@ MonoBehaviour:
     onChanged:
       _PersistentCalls: []
   onChanged:
-    _PersistentCalls: []
+    _PersistentCalls:
+    - _Target: {fileID: 7136503266086350187}
+      _MemberName: comparerValue=
+      _PersistentArguments:
+      - _Type: 14
+        _Int: 0
+        _String: 
+        _X: 3
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+    - _Target: {fileID: 2149712007408031734}
+      _MemberName: comparerValue=
+      _PersistentArguments:
+      - _Type: 14
+        _Int: 0
+        _String: 
+        _X: 3
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+    - _Target: {fileID: 6255221687858513243}
+      _MemberName: maxSpawnCount=
+      _PersistentArguments:
+      - _Type: 14
+        _Int: 0
+        _String: 
+        _X: 3
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
 --- !u!1 &4207897336146744326
 GameObject:
   m_ObjectHideFlags: 0
@@ -200,6 +233,85 @@ MonoBehaviour:
         _Z: 0
         _W: 0
         _Object: {fileID: 0}
+--- !u!1 &4715614246375678921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1133895844601118575}
+  - component: {fileID: 2149712007408031734}
+  m_Layer: 0
+  m_Name: Count > Digit Limit -> Set Digit Count
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1133895844601118575
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4715614246375678921}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6555176857371301186}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2149712007408031734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4715614246375678921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 724fe2265b7413441bfa30b50c665252, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 1961076705459924101}
+  targetFieldName: observableVar
+  usePercentage: 0
+  maxValueFieldName: 
+  onChanged:
+    _PersistentCalls: []
+  useDeltaEvents: 0
+  onChangedWithDelta:
+    _PersistentCalls: []
+  onIncreasedWithDelta:
+    _PersistentCalls: []
+  onDecreasedWithDelta:
+    _PersistentCalls: []
+  useComparer: 1
+  compareType: 0
+  comparerValue: 0
+  onComparedTrue:
+    _PersistentCalls:
+    - _Target: {fileID: 1692009048793789100}
+      _MemberName: SetValue
+      _PersistentArguments:
+      - _Type: 14
+        _Int: 0
+        _String: 
+        _X: 3
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+  onComparedFalse:
+    _PersistentCalls: []
 --- !u!1 &5473839484929467778
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,6 +399,97 @@ MonoBehaviour:
   syncSiblingIndex: 0
   resetLocalPosition: 1
   resetLocalScale: 1
+--- !u!1 &5621509047902534853
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6555176857371301186}
+  - component: {fileID: 2688289472527028400}
+  m_Layer: 0
+  m_Name: If Not 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6555176857371301186
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5621509047902534853}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1133895844601118575}
+  m_Father: {fileID: 1511591049601531614}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2688289472527028400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5621509047902534853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f59018cff210b5443a6fa19a55fae189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 534857152067996342}
+  targetFieldName: observableVar
+  usePercentage: 0
+  maxValueFieldName: 
+  onChanged:
+    _PersistentCalls: []
+  useDeltaEvents: 0
+  onChangedWithDelta:
+    _PersistentCalls: []
+  onIncreasedWithDelta:
+    _PersistentCalls: []
+  onDecreasedWithDelta:
+    _PersistentCalls: []
+  useComparer: 1
+  compareType: 0
+  comparerValue: 0
+  onComparedTrue:
+    _PersistentCalls:
+    - _Target: {fileID: 4715614246375678921}
+      _MemberName: SetActive
+      _PersistentArguments:
+      - _Type: 1
+        _Int: 1
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+  onComparedFalse:
+    _PersistentCalls:
+    - _Target: {fileID: 4715614246375678921}
+      _MemberName: SetActive
+      _PersistentArguments:
+      - _Type: 1
+        _Int: 0
+        _String: 
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
 --- !u!1 &6220590287349725067
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,29 +616,7 @@ MonoBehaviour:
   usePercentage: 0
   maxValueFieldName: 
   onChanged:
-    _PersistentCalls:
-    - _Target: {fileID: 6255221687858513243}
-      _MemberName: maxSpawnCount=
-      _PersistentArguments:
-      - _Type: 14
-        _Int: 0
-        _String: 
-        _X: 3
-        _Y: 0
-        _Z: 0
-        _W: 0
-        _Object: {fileID: 0}
-    - _Target: {fileID: 7136503266086350187}
-      _MemberName: comparerValue=
-      _PersistentArguments:
-      - _Type: 14
-        _Int: 0
-        _String: 
-        _X: 3
-        _Y: 0
-        _Z: 0
-        _W: 0
-        _Object: {fileID: 0}
+    _PersistentCalls: []
   useDeltaEvents: 0
   onChangedWithDelta:
     _PersistentCalls: []
@@ -503,6 +684,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5255240883445425722}
+  - {fileID: 6555176857371301186}
   m_Father: {fileID: 5946611843062515413}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1130,6 +1312,82 @@ MonoBehaviour:
           _Int: 0
           _String: 
           _X: 2
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 534857152067996342}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 534857152067996342}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 534857152067996342}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 534857152067996342}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
           _Y: 0
           _Z: 0
           _W: 0

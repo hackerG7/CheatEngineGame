@@ -139,10 +139,10 @@ TextureImporter:
       name: Health_Bar_0
       rect:
         serializedVersion: 2
-        x: 52
-        y: 70
-        width: 89
-        height: 22
+        x: 51
+        y: 68
+        width: 90
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,9 +160,9 @@ TextureImporter:
       name: Health_Bar_1
       rect:
         serializedVersion: 2
-        x: 69
+        x: 61
         y: 45
-        width: 68
+        width: 76
         height: 4
       alignment: 0
       pivot: {x: 0, y: 0}

@@ -716,7 +716,7 @@ MonoBehaviour:
       type: {class: MMF_CinemachineImpulse, ns: MoreMountains.FeedbacksForThirdParty,
         asm: MoreMountains.Tools}
       data:
-        Active: 0
+        Active: 1
         UniqueID: -1956504261
         Label: Cinemachine Impulse
         ChannelMode: 0
@@ -828,7 +828,7 @@ MonoBehaviour:
           m_DissipationMode: 2
           m_DissipationDistance: 100
           m_PropagationSpeed: 343
-        Velocity: {x: 2, y: 2, z: 2}
+        Velocity: {x: 1, y: 1, z: 1}
         ClearImpulseOnStop: 0
     - rid: 9025164630136979460
       type: {class: MMF_PlayerControl, ns: MoreMountains.Feedbacks, asm: MoreMountains.Tools}

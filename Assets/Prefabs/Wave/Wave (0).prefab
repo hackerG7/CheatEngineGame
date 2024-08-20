@@ -507,7 +507,21 @@ MonoBehaviour:
   timeRemaining: 0
   isRunning: 0
   onTimerStart:
-    _PersistentCalls: []
+    _PersistentCalls:
+    - _Target: {fileID: 1112746080803579054}
+      _MemberName: GetTimeRemaining
+      _PersistentArguments: []
+    - _Target: {fileID: 11400000, guid: 28f902d6836ea684d9feefcc170ffbe3, type: 2}
+      _MemberName: Set
+      _PersistentArguments:
+      - _Type: 15
+        _Int: 0
+        _String: 
+        _X: 5
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
   onTick:
     _PersistentCalls:
     - _Target: {fileID: 11400000, guid: b197af0da67e1c747b3a9730edc9404b, type: 2}

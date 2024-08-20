@@ -199,41 +199,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Letter Display
       objectReference: {fileID: 0}
-    - target: {fileID: 2220130953415689873, guid: 6774126e62187c249af74598e897e0a6,
-        type: 3}
-      propertyPath: m_fontSize
-      value: 35
-      objectReference: {fileID: 0}
-    - target: {fileID: 2220130953415689873, guid: 6774126e62187c249af74598e897e0a6,
-        type: 3}
-      propertyPath: m_fontSizeBase
-      value: 35
-      objectReference: {fileID: 0}
-    - target: {fileID: 4990458613615059622, guid: 6774126e62187c249af74598e897e0a6,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.size
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4990458613615059622, guid: 6774126e62187c249af74598e897e0a6,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4990458613615059622, guid: 6774126e62187c249af74598e897e0a6,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4990458613615059622, guid: 6774126e62187c249af74598e897e0a6,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
-      value: MoreMountains.Feedbacks.MMF_Player, MoreMountains.Tools
-      objectReference: {fileID: 0}
-    - target: {fileID: 4990458613615059622, guid: 6774126e62187c249af74598e897e0a6,
-        type: 3}
-      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_BoolArgument
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 9012720171076861424, guid: 6774126e62187c249af74598e897e0a6,
         type: 3}
       propertyPath: m_Pivot.x

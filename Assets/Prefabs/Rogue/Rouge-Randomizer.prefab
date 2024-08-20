@@ -94,16 +94,6 @@ MonoBehaviour:
       weight: 1
       stockCount: 3
       allowSameInOneDraw: 0
-    - item: {fileID: 7022920210829137901, guid: 5da845fb7783d474ab3aa5e61f77c49b,
-        type: 3}
-      weight: 1
-      stockCount: 3
-      allowSameInOneDraw: 0
-    - item: {fileID: 7022920210829137901, guid: 3524694e76a38f74b84da71b7eefc8e6,
-        type: 3}
-      weight: 1
-      stockCount: 3
-      allowSameInOneDraw: 0
     - item: {fileID: 7022920210829137901, guid: 389d4fa6d9ca61242b1d19987d1ee54d,
         type: 3}
       weight: 1

@@ -16,7 +16,7 @@ MonoBehaviour:
   Description: 
   _guid: 
   _saveGuid: 0
-  resetType: 0
+  resetType: 1
   observableVar:
     _value: 0
     onChanged:

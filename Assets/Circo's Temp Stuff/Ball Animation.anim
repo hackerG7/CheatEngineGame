@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Melee Enemy Animation
+  m_Name: Ball Animation
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,13 +21,9 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -325896250, guid: 70ded9109b6db2d4c9867ee563e7cb7e, type: 3}
-    - time: 0.41666666
-      value: {fileID: -263540264, guid: 70ded9109b6db2d4c9867ee563e7cb7e, type: 3}
-    - time: 0.8333333
-      value: {fileID: -71564670, guid: 70ded9109b6db2d4c9867ee563e7cb7e, type: 3}
-    - time: 1.25
-      value: {fileID: -230474592, guid: 70ded9109b6db2d4c9867ee563e7cb7e, type: 3}
+      value: {fileID: 2081231485, guid: 9b2ff20bf6a6468489fe6a20f904e435, type: 3}
+    - time: 0.083333336
+      value: {fileID: 441406404, guid: 9b2ff20bf6a6468489fe6a20f904e435, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -50,16 +46,14 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -325896250, guid: 70ded9109b6db2d4c9867ee563e7cb7e, type: 3}
-    - {fileID: -263540264, guid: 70ded9109b6db2d4c9867ee563e7cb7e, type: 3}
-    - {fileID: -71564670, guid: 70ded9109b6db2d4c9867ee563e7cb7e, type: 3}
-    - {fileID: -230474592, guid: 70ded9109b6db2d4c9867ee563e7cb7e, type: 3}
+    - {fileID: 2081231485, guid: 9b2ff20bf6a6468489fe6a20f904e435, type: 3}
+    - {fileID: 441406404, guid: 9b2ff20bf6a6468489fe6a20f904e435, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.3333334
+    m_StopTime: 0.16666667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0

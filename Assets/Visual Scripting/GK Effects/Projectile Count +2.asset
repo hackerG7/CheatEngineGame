@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Projectile Count +2
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Double
+      Barrel","summary":"Projectile Count +2","pan":{"x":373.8686,"y":168.6286},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-195.0,"y":-75.0},"guid":"a7a22ed8-4afb-489f-aec1-5496f451bf69","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"9"},{"nest":{"source":"Macro","macro":1,"embed":null},"defaultValues":{},"position":{"x":-206.0,"y":228.0},"guid":"3fc894f4-a03c-4f1a-b537-1c96fed26693","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"12"},{"nest":{"source":"Macro","macro":2,"embed":null},"defaultValues":{"statId":{"$content":3,"$type":"UnityEngine.Object"}},"position":{"x":176.0,"y":55.0},"guid":"d749b457-c4ba-44d9-9b49-5253cd117a9a","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"15"},{"chainable":false,"parameterNames":["value"],"member":{"name":"AddValue","parameterTypes":["System.Single"],"targetType":"FloatStatHolder","targetTypeName":"FloatStatHolder","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":2.0,"$type":"System.Single"}},"position":{"x":502.0,"y":-81.0},"guid":"6433bc34-e777-4449-975a-d34f2d2a7aee","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"18"},{"nest":{"source":"Macro","macro":4,"embed":null},"defaultValues":{"statId":{"$content":5,"$type":"UnityEngine.Object"}},"position":{"x":170.0,"y":344.0},"guid":"f60437ac-8835-4cb2-aad0-8d6a68e167d6","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"22"},{"chainable":false,"parameterNames":["value"],"member":{"name":"SubtractValue","parameterTypes":["System.Single"],"targetType":"FloatStatHolder","targetTypeName":"FloatStatHolder","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":2.0,"$type":"System.Single"}},"position":{"x":510.0,"y":225.0},"guid":"963bc9c6-ebb6-47f4-b2fd-80e7590b88ae","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"25"},{"sourceUnit":{"$ref":"9"},"sourceKey":"output","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"4afcf32a-7560-472a-ad03-4b1dff7f4a30","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"output","destinationUnit":{"$ref":"25"},"destinationKey":"enter","guid":"81df0dfc-d420-413f-b529-7c8627a722a8","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"statValue","destinationUnit":{"$ref":"18"},"destinationKey":"target","guid":"39755a3e-c930-498a-8ea3-05a03946f574","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"statValue","destinationUnit":{"$ref":"25"},"destinationKey":"target","guid":"df0a7afa-68b6-41b0-8692-b2477362bfdc","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 4bab9827f6567414e80a0a379423563e, type: 2}
+    - {fileID: 11400000, guid: 7c9991b1f24e46749a32bf4f41c7dd7e, type: 2}
+    - {fileID: 11400000, guid: 3f834fda076d4e749b8a7052341e7984, type: 2}
+    - {fileID: 11400000, guid: 180ad54c11c6d1f4b83ab00ff259f0fa, type: 2}
+    - {fileID: 11400000, guid: 3f834fda076d4e749b8a7052341e7984, type: 2}
+    - {fileID: 11400000, guid: 180ad54c11c6d1f4b83ab00ff259f0fa, type: 2}

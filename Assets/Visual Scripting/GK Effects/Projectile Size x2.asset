@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Projectile Size x2
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Enlarged
+      Barrel","summary":"Projectile Size x2","pan":{"x":265.6943,"y":142.916},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-195.0,"y":-75.0},"guid":"a7a22ed8-4afb-489f-aec1-5496f451bf69","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"9"},{"nest":{"source":"Macro","macro":1,"embed":null},"defaultValues":{},"position":{"x":-206.0,"y":228.0},"guid":"3fc894f4-a03c-4f1a-b537-1c96fed26693","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"12"},{"nest":{"source":"Macro","macro":2,"embed":null},"defaultValues":{"statId":{"$content":3,"$type":"UnityEngine.Object"}},"position":{"x":32.0,"y":36.0},"guid":"25c98713-6451-452e-b7dc-eff28c695738","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"15"},{"chainable":false,"parameterNames":["value"],"member":{"name":"MultiplyValue","parameterTypes":["System.Single"],"targetType":"FloatStatHolder","targetTypeName":"FloatStatHolder","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":2.0,"$type":"System.Single"}},"position":{"x":323.0,"y":-73.0},"guid":"bfad2d9e-9ce2-4575-9dca-8153246e9133","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"18"},{"nest":{"source":"Macro","macro":4,"embed":null},"defaultValues":{"statId":{"$content":5,"$type":"UnityEngine.Object"}},"position":{"x":42.0,"y":334.0},"guid":"6f0f344a-bd83-455d-a2b4-742a509b8a7b","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"22"},{"chainable":false,"parameterNames":["value"],"member":{"name":"DivideValue","parameterTypes":["System.Single"],"targetType":"FloatStatHolder","targetTypeName":"FloatStatHolder","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":2.0,"$type":"System.Single"}},"position":{"x":326.0,"y":227.0},"guid":"23d5acab-385b-4bed-b675-371200b07c04","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"25"},{"sourceUnit":{"$ref":"9"},"sourceKey":"output","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"fb534652-a922-46fa-9b78-6b94730b07d3","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"output","destinationUnit":{"$ref":"25"},"destinationKey":"enter","guid":"6eb45484-0cfe-4d8d-95f7-4a7bc3fdb9d8","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"statValue","destinationUnit":{"$ref":"18"},"destinationKey":"target","guid":"2defe908-b33c-4adf-900f-e4e60b230c2d","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"statValue","destinationUnit":{"$ref":"25"},"destinationKey":"target","guid":"df449c1d-0572-496f-86dc-a5a79d56400b","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 4bab9827f6567414e80a0a379423563e, type: 2}
+    - {fileID: 11400000, guid: 7c9991b1f24e46749a32bf4f41c7dd7e, type: 2}
+    - {fileID: 11400000, guid: 3f834fda076d4e749b8a7052341e7984, type: 2}
+    - {fileID: 11400000, guid: 9436240dd3742be42952bddcec4d71f2, type: 2}
+    - {fileID: 11400000, guid: 3f834fda076d4e749b8a7052341e7984, type: 2}
+    - {fileID: 11400000, guid: 9436240dd3742be42952bddcec4d71f2, type: 2}

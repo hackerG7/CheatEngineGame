@@ -6,7 +6,6 @@ using UnityEngine;
 public class HealthStatLinker : MonoBehaviour
 {
     public StatId maxHealthStatId;
-    public StatId healthStatId;
 
     // Start is called before the first frame update
     void Awake()
@@ -17,11 +16,6 @@ public class HealthStatLinker : MonoBehaviour
             healthOwner.maxHealth.Value = value;
         };
         gameObject.GetStatHolder(maxHealthStatId.id).onChanged.Invoke(gameObject.GetStatHolder(maxHealthStatId.id).Value);
-        gameObject.GetStatHolder(healthStatId.id).onChanged += (value) =>
-        {
-            healthOwner.health.Value = value;
-        };
-        gameObject.GetStatHolder(healthStatId.id).onChanged.Invoke(gameObject.GetStatHolder(healthStatId.id).Value);
         healthOwner.health = healthOwner.maxHealth;
     }
 }

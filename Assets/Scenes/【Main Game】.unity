@@ -1165,6 +1165,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2040766829 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1674358142730781976, guid: 4a8ec3a7944291441bd38264d7ec0e95,
+    type: 3}
+  m_PrefabInstance: {fileID: 206006484895644732}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3347eaca462d2744bb72efb987e31473, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &206006484895644732
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1238,6 +1250,16 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1674358142730781976, guid: 4a8ec3a7944291441bd38264d7ec0e95,
+        type: 3}
+      propertyPath: onSpawned._PersistentCalls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1674358142730781976, guid: 4a8ec3a7944291441bd38264d7ec0e95,
+        type: 3}
+      propertyPath: onSpawned._PersistentCalls.Array.data[0]._Target
+      value: 
+      objectReference: {fileID: 2040766829}
     - target: {fileID: 2710075003227421597, guid: 4a8ec3a7944291441bd38264d7ec0e95,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -1291,12 +1313,12 @@ PrefabInstance:
     - target: {fileID: 4054060585204541634, guid: 4a8ec3a7944291441bd38264d7ec0e95,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4054060585204541634, guid: 4a8ec3a7944291441bd38264d7ec0e95,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: -1e-45
       objectReference: {fileID: 0}
     - target: {fileID: 4596191976445539660, guid: 4a8ec3a7944291441bd38264d7ec0e95,
         type: 3}

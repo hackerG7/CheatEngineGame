@@ -1,0 +1,23 @@
+<linker>
+  <assembly fullname="Unity.VisualScripting.Core" preserve="all" />
+  <assembly fullname="Unity.VisualScripting.Flow" preserve="all" />
+  <assembly fullname="Unity.VisualScripting.State" preserve="all" />
+  <assembly fullname="CHM.VisualScriptingKai">
+    <type fullname="CHM.VisualScriptingKai.FlowCoroutineStartUnit" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="WaitForUltEventInvokeUnit" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="JFruit.Bolt.OnUnityEvent" preserve="all" />
+  </assembly>
+  <assembly fullname="GKCore.Runtime">
+    <type fullname="GetGKReferenceValueUnit" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="Unity.VisualScripting.WhenUltEventInvokeUnit" preserve="all" />
+  </assembly>
+  <assembly fullname="Assembly-CSharp">
+    <type fullname="Unity.VisualScripting.WaitForUnityEventInvokeUnit" preserve="all" />
+  </assembly>
+</linker>

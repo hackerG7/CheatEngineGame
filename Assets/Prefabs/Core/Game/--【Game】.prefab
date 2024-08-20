@@ -46,7 +46,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5631042670603573546}
   - component: {fileID: 1169713797340672172}
-  - component: {fileID: 3946973022803399990}
   m_Layer: 0
   m_Name: Tiktok SFX
   m_TagString: Untagged
@@ -81,7 +80,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 40163fa5fb985f5458c442060d5317b2, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.839
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -165,69 +164,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &3946973022803399990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3583229945395617684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f59018cff210b5443a6fa19a55fae189, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 11400000, guid: 2bac2ec4f3252374b87e3ad62e4c80a0, type: 2}
-  targetFieldName: observableVar
-  usePercentage: 0
-  maxValueFieldName: 
-  onChanged:
-    _PersistentCalls:
-    - _Target: {fileID: 0}
-      _MemberName: GKExtensions, GKCore.Runtime, Version=3.0.2.0, Culture=neutral,
-        PublicKeyToken=null.QuotientOf
-      _PersistentArguments:
-      - _Type: 14
-        _Int: 0
-        _String: 
-        _X: 5
-        _Y: 0
-        _Z: 0
-        _W: 0
-        _Object: {fileID: 0}
-      - _Type: 5
-        _Int: 0
-        _String: 
-        _X: 100
-        _Y: 0
-        _Z: 0
-        _W: 0
-        _Object: {fileID: 0}
-    - _Target: {fileID: 1169713797340672172}
-      _MemberName: set_volume
-      _PersistentArguments:
-      - _Type: 15
-        _Int: 0
-        _String: 
-        _X: 5
-        _Y: 0
-        _Z: 0
-        _W: 0
-        _Object: {fileID: 0}
-  useDeltaEvents: 0
-  onChangedWithDelta:
-    _PersistentCalls: []
-  onIncreasedWithDelta:
-    _PersistentCalls: []
-  onDecreasedWithDelta:
-    _PersistentCalls: []
-  useComparer: 0
-  compareType: 0
-  comparerValue: 0
-  onComparedTrue:
-    _PersistentCalls: []
-  onComparedFalse:
-    _PersistentCalls: []
 --- !u!1 &7558814701630116636
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,6 +708,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8248883776139951672}
     m_Modifications:
+    - target: {fileID: 802148433032228978, guid: a5301b3b4c037574886316579ae39810,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 913055761772031484, guid: a5301b3b4c037574886316579ae39810,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -780,17 +721,27 @@ PrefabInstance:
     - target: {fileID: 5186182006196174816, guid: a5301b3b4c037574886316579ae39810,
         type: 3}
       propertyPath: orthographic size
-      value: 8.4375
+      value: 11.25
       objectReference: {fileID: 0}
     - target: {fileID: 5186182006196174816, guid: a5301b3b4c037574886316579ae39810,
         type: 3}
       propertyPath: m_NormalizedViewPortRect.x
-      value: -0.028645834
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5186182006196174816, guid: a5301b3b4c037574886316579ae39810,
         type: 3}
       propertyPath: m_NormalizedViewPortRect.y
-      value: 0.125
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186182006196174816, guid: a5301b3b4c037574886316579ae39810,
+        type: 3}
+      propertyPath: m_NormalizedViewPortRect.width
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5186182006196174816, guid: a5301b3b4c037574886316579ae39810,
+        type: 3}
+      propertyPath: m_NormalizedViewPortRect.height
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6968175258738109756, guid: a5301b3b4c037574886316579ae39810,
         type: 3}
@@ -881,6 +832,11 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.33962262
       objectReference: {fileID: 0}
+    - target: {fileID: 2882465986280489395, guid: 87bb567cd7c3c5d4ebd701d0be91add7,
+        type: 3}
+      propertyPath: onSpawned._PersistentCalls.Array.data[0]._Target
+      value: 
+      objectReference: {fileID: 1674358142730781976}
     - target: {fileID: 3203034182330271129, guid: 87bb567cd7c3c5d4ebd701d0be91add7,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -952,3 +908,15 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4556534888591082667}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1674358142730781976 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2882465986280489395, guid: 87bb567cd7c3c5d4ebd701d0be91add7,
+    type: 3}
+  m_PrefabInstance: {fileID: 4556534888591082667}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3347eaca462d2744bb72efb987e31473, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

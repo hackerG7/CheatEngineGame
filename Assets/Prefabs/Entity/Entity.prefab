@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 928026398512350689}
   - component: {fileID: 3600555844276737084}
   - component: {fileID: 792228930807503501}
+  - component: {fileID: 6467225437773521054}
   m_Layer: 0
   m_Name: Entity
   m_TagString: Untagged
@@ -60,7 +61,7 @@ MonoBehaviour:
     linkedMultiplierFloatStats: []
     linkedAmplifierFloatStats: []
   health:
-    _value: 100
+    _value: 0
     onChanged:
       _PersistentCalls: []
     flat: 0
@@ -107,9 +108,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderers: []
-  flashMaterial: {fileID: 2100000, guid: 258ed6cefda52ae4baa4246f22ab1033, type: 2}
+  flashMaterial: {fileID: 2100000, guid: d536c948da6a989448cfcb1a45f48c77, type: 2}
   flashTime: 0.1
   flashCooldown: 0.1
+  autoLoadChildren: 1
 --- !u!114 &3600555844276737084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -140,6 +142,20 @@ MonoBehaviour:
       keys: []
       values: []
     cachedChanges: []
+--- !u!114 &6467225437773521054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2782648018254361550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c86bfa35e6c50744aafa1ed8929fd048, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealthStatId: {fileID: 11400000, guid: a1cd2e67cd2af224b84b83436b2ca2d5, type: 2}
+  healthStatId: {fileID: 11400000, guid: 7d16060d4f17d7e489c9030ebe456262, type: 2}
 --- !u!1 &3102615804703188560
 GameObject:
   m_ObjectHideFlags: 0

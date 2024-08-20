@@ -75,6 +75,368 @@ MonoBehaviour:
         _Object: {fileID: 0}
   onComparedFalse:
     _PersistentCalls: []
+--- !u!1 &549884971725479989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8209817687411916051}
+  - component: {fileID: 8928056775851808596}
+  m_Layer: 0
+  m_Name: Health
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8209817687411916051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549884971725479989}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9002904841117207427}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8928056775851808596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549884971725479989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ea2244452f3e6f4d8c279a9ae2b78a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runChangeEventOnStart: 1
+  observableVar:
+    _value: 10
+    onChanged:
+      _PersistentCalls:
+      - _Target: {fileID: 8928056775851808596}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 8928056775851808596}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 8928056775851808596}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 8928056775851808596}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 8928056775851808596}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 8928056775851808596}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 8928056775851808596}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 8928056775851808596}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 8928056775851808596}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 8928056775851808596}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 8928056775851808596}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 8928056775851808596}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 8928056775851808596}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 8928056775851808596}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 8928056775851808596}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 8928056775851808596}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+    flat: 0
+    multiplier: 1
+    amplifier: 1
+    linkedFLatFloatStats: []
+    linkedMultiplierFloatStats: []
+    linkedAmplifierFloatStats: []
+  onChanged:
+    _PersistentCalls: []
+  statId: {fileID: 11400000, guid: 7d16060d4f17d7e489c9030ebe456262, type: 2}
 --- !u!1 &2926665190673832388
 GameObject:
   m_ObjectHideFlags: 0
@@ -208,6 +570,44 @@ MonoBehaviour:
     _value: 1
     onChanged:
       _PersistentCalls:
+      - _Target: {fileID: 2421048728239414286}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 2421048728239414286}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
       - _Target: {fileID: 2421048728239414286}
         _MemberName: OnValueChanged
         _PersistentArguments:
@@ -953,6 +1353,44 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 216727876128863152}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 216727876128863152}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
@@ -1277,6 +1715,44 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 2951828096795698608}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 2951828096795698608}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
@@ -1297,7 +1773,7 @@ GameObject:
   - component: {fileID: 8134620587957000423}
   - component: {fileID: 7064860346026395685}
   m_Layer: 0
-  m_Name: Move Speed
+  m_Name: Max Health
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1582,6 +2058,44 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 7064860346026395685}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 7064860346026395685}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
@@ -1590,7 +2104,7 @@ MonoBehaviour:
     linkedAmplifierFloatStats: []
   onChanged:
     _PersistentCalls: []
-  statId: {fileID: 11400000, guid: 192e1b58450e647459265f1d289823a1, type: 2}
+  statId: {fileID: 11400000, guid: a1cd2e67cd2af224b84b83436b2ca2d5, type: 2}
 --- !u!1 &5455398308281622322
 GameObject:
   m_ObjectHideFlags: 0
@@ -1698,6 +2212,368 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &5828597404898235636
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7885465102835619713}
+  - component: {fileID: 3268265201596406281}
+  m_Layer: 0
+  m_Name: Move Speed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7885465102835619713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5828597404898235636}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9002904841117207427}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3268265201596406281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5828597404898235636}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ea2244452f3e6f4d8c279a9ae2b78a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  runChangeEventOnStart: 1
+  observableVar:
+    _value: 10
+    onChanged:
+      _PersistentCalls:
+      - _Target: {fileID: 3268265201596406281}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 3268265201596406281}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 3268265201596406281}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 3268265201596406281}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 3268265201596406281}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 3268265201596406281}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 3268265201596406281}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 3268265201596406281}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 3268265201596406281}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 3268265201596406281}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 3268265201596406281}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 3268265201596406281}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 3268265201596406281}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 3268265201596406281}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 3268265201596406281}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 3268265201596406281}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+    flat: 0
+    multiplier: 1
+    amplifier: 1
+    linkedFLatFloatStats: []
+    linkedMultiplierFloatStats: []
+    linkedAmplifierFloatStats: []
+  onChanged:
+    _PersistentCalls: []
+  statId: {fileID: 11400000, guid: 192e1b58450e647459265f1d289823a1, type: 2}
 --- !u!1 &6914611895200971976
 GameObject:
   m_ObjectHideFlags: 0
@@ -1822,6 +2698,44 @@ MonoBehaviour:
     _value: 1
     onChanged:
       _PersistentCalls:
+      - _Target: {fileID: 2890764378264211689}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 2890764378264211689}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
       - _Target: {fileID: 2890764378264211689}
         _MemberName: OnValueChanged
         _PersistentArguments:
@@ -2412,6 +3326,44 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 7800717246782109357}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+      - _Target: {fileID: 7800717246782109357}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
@@ -2545,6 +3497,14 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 8134620587957000423}
+    - targetCorrespondingSourceObject: {fileID: 5344852580476718285, guid: b1500a3118d524e4eae3f98f2e0a4bc0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8209817687411916051}
+    - targetCorrespondingSourceObject: {fileID: 5344852580476718285, guid: b1500a3118d524e4eae3f98f2e0a4bc0,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7885465102835619713}
     - targetCorrespondingSourceObject: {fileID: 5344852580476718285, guid: b1500a3118d524e4eae3f98f2e0a4bc0,
         type: 3}
       insertIndex: -1

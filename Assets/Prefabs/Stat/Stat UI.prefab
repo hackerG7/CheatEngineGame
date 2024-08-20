@@ -1081,8 +1081,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: bullet speed
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 5d0ceadba60301a42b4ac39ba041f459, type: 2}
-  m_sharedMaterial: {fileID: 2377954748815770492, guid: 5d0ceadba60301a42b4ac39ba041f459,
+  m_fontAsset: {fileID: 11400000, guid: df97b65fc71845e4c8d9b75be2cfd48e, type: 2}
+  m_sharedMaterial: {fileID: -3865820240464526175, guid: df97b65fc71845e4c8d9b75be2cfd48e,
     type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}

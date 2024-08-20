@@ -19,4 +19,16 @@ public static class GameObject_StatExtension{
         FloatStatHolder statHolder = gameObject.GetStatHolder(statId);
         return statHolder?.Value ?? 0;
     }
+    public static void SetStatValue(this GameObject gameObject, StatId statId, float value){
+        if(gameObject == null) return;
+        FloatStatHolder statHolder = gameObject.GetStatHolder(statId.id);
+        if(statHolder != null)
+            statHolder.Value = value;
+    }
+    public static void AddStatMultiplier(this GameObject gameObject, StatId statId, float value){
+        if(gameObject == null) return;
+        FloatStatHolder statHolder = gameObject.GetStatHolder(statId.id);
+        if(statHolder != null)
+            statHolder.observableVar.AddMultiplier(value);
+    }
 }

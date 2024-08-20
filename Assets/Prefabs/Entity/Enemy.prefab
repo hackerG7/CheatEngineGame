@@ -287,6 +287,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 928026398512350689, guid: 5c887b12949dd384cb81b8f12a42c2e1,
+        type: 3}
+      propertyPath: flashMaterial
+      value: 
+      objectReference: {fileID: 2100000, guid: d536c948da6a989448cfcb1a45f48c77, type: 2}
     - target: {fileID: 1886225148044691407, guid: 5c887b12949dd384cb81b8f12a42c2e1,
         type: 3}
       propertyPath: onDeath._PersistentCalls.Array.size

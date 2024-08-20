@@ -58,14 +58,43 @@ MonoBehaviour:
   minRandomRotation: {x: 0, y: 0, z: 0}
   maxRandomRotation: {x: 0, y: 0, z: 0}
   autoSpawn: 1
-  maxSpawnCount: 10
+  maxSpawnCount: 0
   spawnInterval: 1
   spawnDelay: 0
   retryCount: 5
   distanceBetweenObjects: 0
   spawnedObjects: []
   onSpawned:
-    _PersistentCalls: []
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MemberName: GameObject_StatExtension, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null.AddStatMultiplier
+      _PersistentArguments:
+      - _Type: 14
+        _Int: 0
+        _String: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 13
+        _Int: 0
+        _String: StatId, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 11400000, guid: 2f1bb4b786f41f84aaf92aa2dcc8e3f8, type: 2}
+      - _Type: 5
+        _Int: 0
+        _String: 
+        _X: 0.1
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
 --- !u!1 &2853721040866008414
 GameObject:
   m_ObjectHideFlags: 0
@@ -99,6 +128,101 @@ Transform:
   - {fileID: 3217546252275037409}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3527607604012785588
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9082892421216516400}
+  - component: {fileID: 4607472516176966690}
+  m_Layer: 0
+  m_Name: Spike Enemy Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9082892421216516400
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3527607604012785588}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3217546252275037409}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4607472516176966690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3527607604012785588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3347eaca462d2744bb72efb987e31473, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 3726362787448171557, guid: 4041253192617e148b3e11f4001e04a3, type: 3}
+  spawnMode: 0
+  spawnPoints: []
+  spawnPointTags:
+  - EnemySpawnPoint
+  spawnArea: {fileID: 0}
+  spawnArea3D: {fileID: 0}
+  spawnInSpawnPointParent: 0
+  spawnInCustomParent: 0
+  parentTransform: {fileID: 0}
+  spawnWithRandomRotation: 0
+  minRandomRotation: {x: 0, y: 0, z: 0}
+  maxRandomRotation: {x: 0, y: 0, z: 0}
+  autoSpawn: 1
+  maxSpawnCount: 0
+  spawnInterval: 1
+  spawnDelay: 0
+  retryCount: 5
+  distanceBetweenObjects: 0
+  spawnedObjects: []
+  onSpawned:
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MemberName: GameObject_StatExtension, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null.AddStatMultiplier
+      _PersistentArguments:
+      - _Type: 14
+        _Int: 0
+        _String: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 13
+        _Int: 0
+        _String: StatId, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 11400000, guid: 2f1bb4b786f41f84aaf92aa2dcc8e3f8, type: 2}
+      - _Type: 5
+        _Int: 0
+        _String: 
+        _X: 0.1
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
 --- !u!1 &3687842269336269378
 GameObject:
   m_ObjectHideFlags: 0
@@ -157,14 +281,43 @@ MonoBehaviour:
   minRandomRotation: {x: 0, y: 0, z: 0}
   maxRandomRotation: {x: 0, y: 0, z: 0}
   autoSpawn: 1
-  maxSpawnCount: 10
+  maxSpawnCount: 0
   spawnInterval: 1
   spawnDelay: 0
   retryCount: 5
   distanceBetweenObjects: 0
   spawnedObjects: []
   onSpawned:
-    _PersistentCalls: []
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MemberName: GameObject_StatExtension, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null.AddStatMultiplier
+      _PersistentArguments:
+      - _Type: 14
+        _Int: 0
+        _String: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 13
+        _Int: 0
+        _String: StatId, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 11400000, guid: 2f1bb4b786f41f84aaf92aa2dcc8e3f8, type: 2}
+      - _Type: 5
+        _Int: 0
+        _String: 
+        _X: 0.1
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
 --- !u!1 &4899820420804557165
 GameObject:
   m_ObjectHideFlags: 0
@@ -223,14 +376,43 @@ MonoBehaviour:
   minRandomRotation: {x: 0, y: 0, z: 0}
   maxRandomRotation: {x: 0, y: 0, z: 0}
   autoSpawn: 1
-  maxSpawnCount: 10
+  maxSpawnCount: 0
   spawnInterval: 1
   spawnDelay: 0
   retryCount: 5
   distanceBetweenObjects: 0
   spawnedObjects: []
   onSpawned:
-    _PersistentCalls: []
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MemberName: GameObject_StatExtension, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null.AddStatMultiplier
+      _PersistentArguments:
+      - _Type: 14
+        _Int: 0
+        _String: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 13
+        _Int: 0
+        _String: StatId, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 11400000, guid: 2f1bb4b786f41f84aaf92aa2dcc8e3f8, type: 2}
+      - _Type: 5
+        _Int: 0
+        _String: 
+        _X: 0.1
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
 --- !u!1 &6753324198783349312
 GameObject:
   m_ObjectHideFlags: 0
@@ -263,6 +445,7 @@ Transform:
   - {fileID: 5400774596132675121}
   - {fileID: 7994518877976811484}
   - {fileID: 962726606141525747}
+  - {fileID: 9082892421216516400}
   m_Father: {fileID: 55261252800126108}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &9168782446848958867

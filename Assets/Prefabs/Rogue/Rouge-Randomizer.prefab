@@ -287,11 +287,36 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5388891912771589564, guid: 9ac354df796115d48b8a0ba872e062fb,
+        type: 3}
+      propertyPath: CustomStartPosition.x
+      value: 1108.3334
+      objectReference: {fileID: 0}
+    - target: {fileID: 5388891912771589564, guid: 9ac354df796115d48b8a0ba872e062fb,
+        type: 3}
+      propertyPath: CustomStartPosition.y
+      value: -540
+      objectReference: {fileID: 0}
     - target: {fileID: 5658640445926929101, guid: 9ac354df796115d48b8a0ba872e062fb,
         type: 3}
       propertyPath: m_Name
       value: Rogue Card (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6765741725498748475, guid: 9ac354df796115d48b8a0ba872e062fb,
+        type: 3}
+      propertyPath: Behaviours.Selectable
+      value: 
+      objectReference: {fileID: 6181537224335824398}
+    - target: {fileID: 6765741725498748475, guid: 9ac354df796115d48b8a0ba872e062fb,
+        type: 3}
+      propertyPath: Behaviours.SignalSource
+      value: 
+      objectReference: {fileID: 3808014924039390013}
+    - target: {fileID: 6765741725498748475, guid: 9ac354df796115d48b8a0ba872e062fb,
+        type: 3}
+      propertyPath: Behaviours.Behaviours.Array.data[0].Selectable
+      value: 
+      objectReference: {fileID: 6181537224335824398}
     - target: {fileID: 7884746119225930215, guid: 9ac354df796115d48b8a0ba872e062fb,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -435,6 +460,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f8fce68c9e63914285162ee740dcc59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &3808014924039390013 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4392501123248896776, guid: 9ac354df796115d48b8a0ba872e062fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 589273473105279029}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6181537224335824398 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6765741725498748475, guid: 9ac354df796115d48b8a0ba872e062fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 589273473105279029}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3808014924039390013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77c6d918500348269ab48ea9646e337b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &7480493642179917681 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8069755982461505348, guid: 9ac354df796115d48b8a0ba872e062fb,
@@ -489,11 +532,36 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5388891912771589564, guid: 9ac354df796115d48b8a0ba872e062fb,
+        type: 3}
+      propertyPath: CustomStartPosition.x
+      value: 675
+      objectReference: {fileID: 0}
+    - target: {fileID: 5388891912771589564, guid: 9ac354df796115d48b8a0ba872e062fb,
+        type: 3}
+      propertyPath: CustomStartPosition.y
+      value: -540
+      objectReference: {fileID: 0}
     - target: {fileID: 5658640445926929101, guid: 9ac354df796115d48b8a0ba872e062fb,
         type: 3}
       propertyPath: m_Name
       value: Rogue Card (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6765741725498748475, guid: 9ac354df796115d48b8a0ba872e062fb,
+        type: 3}
+      propertyPath: Behaviours.Selectable
+      value: 
+      objectReference: {fileID: 5660749420134852219}
+    - target: {fileID: 6765741725498748475, guid: 9ac354df796115d48b8a0ba872e062fb,
+        type: 3}
+      propertyPath: Behaviours.SignalSource
+      value: 
+      objectReference: {fileID: 3431452251813049160}
+    - target: {fileID: 6765741725498748475, guid: 9ac354df796115d48b8a0ba872e062fb,
+        type: 3}
+      propertyPath: Behaviours.Behaviours.Array.data[0].Selectable
+      value: 
+      objectReference: {fileID: 5660749420134852219}
     - target: {fileID: 7884746119225930215, guid: 9ac354df796115d48b8a0ba872e062fb,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -637,6 +705,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f8fce68c9e63914285162ee740dcc59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &3431452251813049160 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4392501123248896776, guid: 9ac354df796115d48b8a0ba872e062fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1399418661517051968}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5660749420134852219 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6765741725498748475, guid: 9ac354df796115d48b8a0ba872e062fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1399418661517051968}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3431452251813049160}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77c6d918500348269ab48ea9646e337b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &8977419618854717188 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8069755982461505348, guid: 9ac354df796115d48b8a0ba872e062fb,
@@ -691,11 +777,36 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5388891912771589564, guid: 9ac354df796115d48b8a0ba872e062fb,
+        type: 3}
+      propertyPath: CustomStartPosition.x
+      value: 241.66667
+      objectReference: {fileID: 0}
+    - target: {fileID: 5388891912771589564, guid: 9ac354df796115d48b8a0ba872e062fb,
+        type: 3}
+      propertyPath: CustomStartPosition.y
+      value: -540
+      objectReference: {fileID: 0}
     - target: {fileID: 5658640445926929101, guid: 9ac354df796115d48b8a0ba872e062fb,
         type: 3}
       propertyPath: m_Name
       value: Rogue Card
       objectReference: {fileID: 0}
+    - target: {fileID: 6765741725498748475, guid: 9ac354df796115d48b8a0ba872e062fb,
+        type: 3}
+      propertyPath: Behaviours.Selectable
+      value: 
+      objectReference: {fileID: 1423937062079741776}
+    - target: {fileID: 6765741725498748475, guid: 9ac354df796115d48b8a0ba872e062fb,
+        type: 3}
+      propertyPath: Behaviours.SignalSource
+      value: 
+      objectReference: {fileID: 8273997664608299619}
+    - target: {fileID: 6765741725498748475, guid: 9ac354df796115d48b8a0ba872e062fb,
+        type: 3}
+      propertyPath: Behaviours.Behaviours.Array.data[0].Selectable
+      value: 
+      objectReference: {fileID: 1423937062079741776}
     - target: {fileID: 7884746119225930215, guid: 9ac354df796115d48b8a0ba872e062fb,
         type: 3}
       propertyPath: m_AnchorMax.y
@@ -827,6 +938,18 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ac354df796115d48b8a0ba872e062fb, type: 3}
+--- !u!114 &1423937062079741776 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6765741725498748475, guid: 9ac354df796115d48b8a0ba872e062fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 5631304339896308075}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8273997664608299619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77c6d918500348269ab48ea9646e337b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &2439791260615122479 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8069755982461505348, guid: 9ac354df796115d48b8a0ba872e062fb,
@@ -845,3 +968,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f8fce68c9e63914285162ee740dcc59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &8273997664608299619 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4392501123248896776, guid: 9ac354df796115d48b8a0ba872e062fb,
+    type: 3}
+  m_PrefabInstance: {fileID: 5631304339896308075}
+  m_PrefabAsset: {fileID: 0}

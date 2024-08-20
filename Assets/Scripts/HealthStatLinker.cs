@@ -11,9 +11,16 @@ public class HealthStatLinker : MonoBehaviour
     void Awake()
     {
         HealthOwner healthOwner = GetComponent<HealthOwner>();
-        gameObject.GetStatHolder(maxHealthStatId.id).onChanged += (value) =>
+        gameObject.GetStatHolder(maxHealthStatId.id).observableVar.onChanged += (old, value) =>
         {
+            float diff = value - old;
             healthOwner.maxHealth.Value = value;
+            GKUtils.RunAfterSeconds(()=>{
+                healthOwner.health.Value += diff;
+                if(healthOwner.health.Value > healthOwner.maxHealth.Value)
+                    healthOwner.health.Value = healthOwner.maxHealth.Value;
+            }, 0.05f);
+
         };
         gameObject.GetStatHolder(maxHealthStatId.id).onChanged.Invoke(gameObject.GetStatHolder(maxHealthStatId.id).Value);
         healthOwner.health.Value = healthOwner.maxHealth.Value;

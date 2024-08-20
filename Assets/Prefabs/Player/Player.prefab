@@ -18402,7 +18402,7 @@ PrefabInstance:
     - target: {fileID: 8932708741182799683, guid: 95701d1054e3ef444a774b398ff8af52,
         type: 3}
       propertyPath: m_Name
-      value: Empty
+      value: Happiness
       objectReference: {fileID: 0}
     - target: {fileID: 9113816696022510923, guid: 95701d1054e3ef444a774b398ff8af52,
         type: 3}

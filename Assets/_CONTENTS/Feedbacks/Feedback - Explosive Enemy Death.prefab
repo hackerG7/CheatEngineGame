@@ -972,7 +972,7 @@ MonoBehaviour:
   - rid: 9025164635290468356
   - rid: 9025164635290468359
   - rid: 9025164635290468364
-  - rid: 9025164635290468370
+  - rid: 9025164635290468374
   KeepPlayModeChanges: 0
   PerformanceMode: 0
   StopFeedbacksOnDisable: 0
@@ -1424,12 +1424,12 @@ MonoBehaviour:
         StateOnSkip: 1
         SetStateOnPlayerComplete: 0
         StateOnPlayerComplete: 1
-    - rid: 9025164635290468370
-      type: {class: MMF_Pause, ns: MoreMountains.Feedbacks, asm: MoreMountains.Tools}
+    - rid: 9025164635290468374
+      type: {class: MMF_HoldingPause, ns: MoreMountains.Feedbacks, asm: MoreMountains.Tools}
       data:
         Active: 1
-        UniqueID: -1421437335
-        Label: Pause
+        UniqueID: -1419968352
+        Label: Holding Pause
         ChannelMode: 0
         Channel: 0
         MMChannelDefinition: {fileID: 0}

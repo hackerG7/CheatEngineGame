@@ -3015,6 +3015,12 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 2.43
       objectReference: {fileID: 0}
+    - target: {fileID: 6494872508110617928, guid: b1500a3118d524e4eae3f98f2e0a4bc0,
+        type: 3}
+      propertyPath: onDeath._PersistentCalls.Array.data[1]._PersistentArguments.Array.data[0]._Object
+      value: 
+      objectReference: {fileID: 3457042993412523234, guid: 7b21ca09275ffe94594fc48b9b5a4351,
+        type: 3}
     - target: {fileID: 7391154952472627529, guid: b1500a3118d524e4eae3f98f2e0a4bc0,
         type: 3}
       propertyPath: m_Name

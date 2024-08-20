@@ -11,7 +11,7 @@ PrefabInstance:
     - target: {fileID: 5003807143360566228, guid: 5860d570bfdcd684ca1d03b4d25bfbac,
         type: 3}
       propertyPath: m_Name
-      value: Spike Enemy
+      value: Plum - Spike Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 6214293144189249275, guid: 5860d570bfdcd684ca1d03b4d25bfbac,
         type: 3}

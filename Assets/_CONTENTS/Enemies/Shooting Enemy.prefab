@@ -569,6 +569,25 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 2421048728239414286}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
@@ -763,6 +782,25 @@ MonoBehaviour:
     _value: 5
     onChanged:
       _PersistentCalls:
+      - _Target: {fileID: 216727876128863152}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
       - _Target: {fileID: 216727876128863152}
         _MemberName: OnValueChanged
         _PersistentArguments:
@@ -1448,6 +1486,25 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 2951828096795698608}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
@@ -1506,6 +1563,25 @@ MonoBehaviour:
     _value: 10
     onChanged:
       _PersistentCalls:
+      - _Target: {fileID: 7064860346026395685}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
       - _Target: {fileID: 7064860346026395685}
         _MemberName: OnValueChanged
         _PersistentArguments:
@@ -2298,6 +2374,25 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 3268265201596406281}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
@@ -2431,6 +2526,25 @@ MonoBehaviour:
     _value: 1
     onChanged:
       _PersistentCalls:
+      - _Target: {fileID: 2890764378264211689}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
       - _Target: {fileID: 2890764378264211689}
         _MemberName: OnValueChanged
         _PersistentArguments:
@@ -3135,6 +3249,25 @@ MonoBehaviour:
           _Z: 0
           _W: 0
           _Object: {fileID: 0}
+      - _Target: {fileID: 7800717246782109357}
+        _MemberName: OnValueChanged
+        _PersistentArguments:
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
+        - _Type: 5
+          _Int: 0
+          _String: 
+          _X: 0
+          _Y: 0
+          _Z: 0
+          _W: 0
+          _Object: {fileID: 0}
     flat: 0
     multiplier: 1
     amplifier: 1
@@ -3435,9 +3568,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.4569605}
+  m_Offset: {x: 0, y: -0.030679822}
   serializedVersion: 2
-  m_Radius: 0.46991867
+  m_Radius: 1.1980885
 --- !u!4 &6862973020007716169 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7629705540023407111, guid: b1500a3118d524e4eae3f98f2e0a4bc0,

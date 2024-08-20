@@ -65,7 +65,36 @@ MonoBehaviour:
   distanceBetweenObjects: 0
   spawnedObjects: []
   onSpawned:
-    _PersistentCalls: []
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MemberName: GameObject_StatExtension, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null.AddStatMultiplier
+      _PersistentArguments:
+      - _Type: 14
+        _Int: 0
+        _String: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 13
+        _Int: 0
+        _String: StatId, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 11400000, guid: 2f1bb4b786f41f84aaf92aa2dcc8e3f8, type: 2}
+      - _Type: 5
+        _Int: 0
+        _String: 
+        _X: 0.1
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
 --- !u!1 &2853721040866008414
 GameObject:
   m_ObjectHideFlags: 0
@@ -164,7 +193,36 @@ MonoBehaviour:
   distanceBetweenObjects: 0
   spawnedObjects: []
   onSpawned:
-    _PersistentCalls: []
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MemberName: GameObject_StatExtension, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null.AddStatMultiplier
+      _PersistentArguments:
+      - _Type: 14
+        _Int: 0
+        _String: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 13
+        _Int: 0
+        _String: StatId, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 11400000, guid: 2f1bb4b786f41f84aaf92aa2dcc8e3f8, type: 2}
+      - _Type: 5
+        _Int: 0
+        _String: 
+        _X: 0.1
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
 --- !u!1 &4899820420804557165
 GameObject:
   m_ObjectHideFlags: 0
@@ -230,7 +288,36 @@ MonoBehaviour:
   distanceBetweenObjects: 0
   spawnedObjects: []
   onSpawned:
-    _PersistentCalls: []
+    _PersistentCalls:
+    - _Target: {fileID: 0}
+      _MemberName: GameObject_StatExtension, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null.AddStatMultiplier
+      _PersistentArguments:
+      - _Type: 14
+        _Int: 0
+        _String: UnityEngine.GameObject, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
+      - _Type: 13
+        _Int: 0
+        _String: StatId, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+        _X: 0
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 11400000, guid: 2f1bb4b786f41f84aaf92aa2dcc8e3f8, type: 2}
+      - _Type: 5
+        _Int: 0
+        _String: 
+        _X: 0.1
+        _Y: 0
+        _Z: 0
+        _W: 0
+        _Object: {fileID: 0}
 --- !u!1 &6753324198783349312
 GameObject:
   m_ObjectHideFlags: 0

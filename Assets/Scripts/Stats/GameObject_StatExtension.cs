@@ -25,4 +25,10 @@ public static class GameObject_StatExtension{
         if(statHolder != null)
             statHolder.Value = value;
     }
+    public static void AddStatMultiplier(this GameObject gameObject, StatId statId, float value){
+        if(gameObject == null) return;
+        FloatStatHolder statHolder = gameObject.GetStatHolder(statId.id);
+        if(statHolder != null)
+            statHolder.observableVar.AddMultiplier(value);
+    }
 }

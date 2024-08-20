@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Max Health x2
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Blood
+      Pump","summary":"Health x2","pan":{"x":346.3895,"y":147.0539},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-195.0,"y":-75.0},"guid":"a7a22ed8-4afb-489f-aec1-5496f451bf69","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"9"},{"nest":{"source":"Macro","macro":1,"embed":null},"defaultValues":{},"position":{"x":-206.0,"y":228.0},"guid":"3fc894f4-a03c-4f1a-b537-1c96fed26693","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"12"},{"nest":{"source":"Macro","macro":2,"embed":null},"defaultValues":{"statId":{"$content":3,"$type":"UnityEngine.Object"}},"position":{"x":99.0,"y":36.0},"guid":"c9110c09-793a-47bf-8bf7-6876eb7c2c54","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"15"},{"chainable":false,"parameterNames":["value"],"member":{"name":"MultiplyValue","parameterTypes":["System.Single"],"targetType":"FloatStatHolder","targetTypeName":"FloatStatHolder","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":2.0,"$type":"System.Single"}},"position":{"x":390.0,"y":-73.0},"guid":"84f5f8fd-4281-407b-9a5b-88bf3a93945c","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"18"},{"nest":{"source":"Macro","macro":4,"embed":null},"defaultValues":{"statId":{"$content":5,"$type":"UnityEngine.Object"}},"position":{"x":109.0,"y":334.0},"guid":"c6cab1e2-bdc2-4c48-86e5-8250db7b9172","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"22"},{"chainable":false,"parameterNames":["value"],"member":{"name":"DivideValue","parameterTypes":["System.Single"],"targetType":"FloatStatHolder","targetTypeName":"FloatStatHolder","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":2.0,"$type":"System.Single"}},"position":{"x":393.0,"y":227.0},"guid":"83e345a5-043b-4932-ba87-c89dd22722e2","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"25"},{"sourceUnit":{"$ref":"9"},"sourceKey":"output","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"8a876318-722c-49ea-b8b3-ad55c68ee752","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"output","destinationUnit":{"$ref":"25"},"destinationKey":"enter","guid":"7a790d61-b37d-49a9-a95c-28d7b6daae3a","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"statValue","destinationUnit":{"$ref":"18"},"destinationKey":"target","guid":"ed488b7b-a1ea-46ac-aa8f-a570586ad280","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"statValue","destinationUnit":{"$ref":"25"},"destinationKey":"target","guid":"59de24b6-d2eb-461c-8645-b007dbbbd481","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 4bab9827f6567414e80a0a379423563e, type: 2}
+    - {fileID: 11400000, guid: 7c9991b1f24e46749a32bf4f41c7dd7e, type: 2}
+    - {fileID: 11400000, guid: 3f834fda076d4e749b8a7052341e7984, type: 2}
+    - {fileID: 11400000, guid: 7d16060d4f17d7e489c9030ebe456262, type: 2}
+    - {fileID: 11400000, guid: 3f834fda076d4e749b8a7052341e7984, type: 2}
+    - {fileID: 11400000, guid: 7d16060d4f17d7e489c9030ebe456262, type: 2}

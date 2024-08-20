@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Move Speed x2
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Fast
+      Legs","summary":"Movement Speed x2","pan":{"x":349.9444,"y":148.7291},"zoom":1.0,"elements":[{"nest":{"source":"Macro","macro":0,"embed":null},"defaultValues":{},"position":{"x":-195.0,"y":-75.0},"guid":"a7a22ed8-4afb-489f-aec1-5496f451bf69","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"9"},{"nest":{"source":"Macro","macro":1,"embed":null},"defaultValues":{},"position":{"x":-206.0,"y":228.0},"guid":"3fc894f4-a03c-4f1a-b537-1c96fed26693","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"12"},{"nest":{"source":"Macro","macro":2,"embed":null},"defaultValues":{"statId":{"$content":3,"$type":"UnityEngine.Object"}},"position":{"x":140.0,"y":15.0},"guid":"bd5d0260-4b0c-4a1a-a076-dcf5488c161d","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"15"},{"chainable":false,"parameterNames":["value"],"member":{"name":"MultiplyValue","parameterTypes":["System.Single"],"targetType":"FloatStatHolder","targetTypeName":"FloatStatHolder","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":2.0,"$type":"System.Single"}},"position":{"x":431.0,"y":-94.0},"guid":"12524104-8600-41cb-9321-e981f20995f7","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"18"},{"nest":{"source":"Macro","macro":4,"embed":null},"defaultValues":{"statId":{"$content":5,"$type":"UnityEngine.Object"}},"position":{"x":150.0,"y":313.0},"guid":"660cb46f-4d3a-469c-b0d4-9efc24f236af","$version":"A","$type":"Unity.VisualScripting.SubgraphUnit","$id":"22"},{"chainable":false,"parameterNames":["value"],"member":{"name":"DivideValue","parameterTypes":["System.Single"],"targetType":"FloatStatHolder","targetTypeName":"FloatStatHolder","$version":"A"},"defaultValues":{"target":null,"%value":{"$content":2.0,"$type":"System.Single"}},"position":{"x":434.0,"y":206.0},"guid":"ba801ca8-3d57-41e1-84a9-dd12a7584c6f","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"25"},{"sourceUnit":{"$ref":"9"},"sourceKey":"output","destinationUnit":{"$ref":"18"},"destinationKey":"enter","guid":"e7b24287-ef1c-4219-abcc-da774c8e7452","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"12"},"sourceKey":"output","destinationUnit":{"$ref":"25"},"destinationKey":"enter","guid":"11817bb3-58d5-4d75-8750-0dce6562ace3","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"statValue","destinationUnit":{"$ref":"18"},"destinationKey":"target","guid":"eeb3fba2-cef3-40f2-aa23-624f062fce73","$type":"Unity.VisualScripting.ValueConnection"},{"sourceUnit":{"$ref":"22"},"sourceKey":"statValue","destinationUnit":{"$ref":"25"},"destinationKey":"target","guid":"2be3565e-915d-4f80-a3ed-78b12cd5040a","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 4bab9827f6567414e80a0a379423563e, type: 2}
+    - {fileID: 11400000, guid: 7c9991b1f24e46749a32bf4f41c7dd7e, type: 2}
+    - {fileID: 11400000, guid: 3f834fda076d4e749b8a7052341e7984, type: 2}
+    - {fileID: 11400000, guid: 192e1b58450e647459265f1d289823a1, type: 2}
+    - {fileID: 11400000, guid: 3f834fda076d4e749b8a7052341e7984, type: 2}
+    - {fileID: 11400000, guid: 192e1b58450e647459265f1d289823a1, type: 2}

@@ -13,8 +13,9 @@ GameObject:
   - component: {fileID: 6549400807560833714}
   - component: {fileID: 7147292132417153394}
   - component: {fileID: 7610653458869717764}
+  - component: {fileID: 3940993480393633041}
   m_Layer: 0
-  m_Name: "\u3010Rouge Effect Base\u3011"
+  m_Name: Rogue - Silver Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -52,6 +53,8 @@ MonoBehaviour:
     _value: {fileID: -1225781211, guid: 8baba64e281b61548b20de826009cc3d, type: 3}
     onChanged:
       _PersistentCalls: []
+  onChanged:
+    _PersistentCalls: []
 --- !u!114 &6549400807560833714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -103,3 +106,16 @@ MonoBehaviour:
   onRemove:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &3940993480393633041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263069534813796754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de1266fa7e66f7a48b6948a02998ef48, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefix: 'Rogue - '

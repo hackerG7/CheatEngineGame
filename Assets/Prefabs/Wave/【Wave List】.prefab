@@ -2480,6 +2480,22 @@ PrefabInstance:
       propertyPath: duration._value
       value: 30
       objectReference: {fileID: 0}
+    - target: {fileID: 1112746080803579054, guid: f80d15798057860479a7d014630d9dcb,
+        type: 3}
+      propertyPath: onTimerEnd._PersistentCalls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1112746080803579054, guid: f80d15798057860479a7d014630d9dcb,
+        type: 3}
+      propertyPath: onTimerEnd._PersistentCalls.Array.data[2]._Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 38e5c7057ac6a7e4a8001bf4930f971e,
+        type: 2}
+    - target: {fileID: 1112746080803579054, guid: f80d15798057860479a7d014630d9dcb,
+        type: 3}
+      propertyPath: onTimerEnd._PersistentCalls.Array.data[2]._MemberName
+      value: Raise
+      objectReference: {fileID: 0}
     - target: {fileID: 2853721040866008414, guid: f80d15798057860479a7d014630d9dcb,
         type: 3}
       propertyPath: m_Name

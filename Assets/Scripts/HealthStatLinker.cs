@@ -14,12 +14,11 @@ public class HealthStatLinker : MonoBehaviour
         gameObject.GetStatHolder(maxHealthStatId.id).observableVar.onChanged += (old, value) =>
         {
             float diff = value - old;
+            Debug.Log("Diff: " + diff);
             healthOwner.maxHealth.Value = value;
-            GKUtils.RunAfterSeconds(()=>{
-                healthOwner.health.Value += diff;
-                if(healthOwner.health.Value > healthOwner.maxHealth.Value)
-                    healthOwner.health.Value = healthOwner.maxHealth.Value;
-            }, 0.05f);
+            healthOwner.health.Value += diff;
+            if(healthOwner.health.Value > healthOwner.maxHealth.Value)
+                healthOwner.health.Value = healthOwner.maxHealth.Value;
 
         };
         gameObject.GetStatHolder(maxHealthStatId.id).onChanged.Invoke(gameObject.GetStatHolder(maxHealthStatId.id).Value);

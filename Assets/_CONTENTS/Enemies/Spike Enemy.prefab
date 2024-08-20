@@ -597,6 +597,8 @@ MonoBehaviour:
     linkedAmplifierFloatStats: []
   onChanged:
     _PersistentCalls: []
+  onChangedCompared:
+    _PersistentCalls: []
   statId: {fileID: 11400000, guid: a1cd2e67cd2af224b84b83436b2ca2d5, type: 2}
 --- !u!1 &1209409180867488158
 GameObject:
@@ -1186,6 +1188,8 @@ MonoBehaviour:
     linkedAmplifierFloatStats: []
   onChanged:
     _PersistentCalls: []
+  onChangedCompared:
+    _PersistentCalls: []
   statId: {fileID: 11400000, guid: 192e1b58450e647459265f1d289823a1, type: 2}
 --- !u!1 &3280792469537270257
 GameObject:
@@ -1316,6 +1320,8 @@ MonoBehaviour:
     onChanged:
       _PersistentCalls: []
   onChanged:
+    _PersistentCalls: []
+  onChangedCompared:
     _PersistentCalls: []
 --- !u!114 &3740335568258822725
 MonoBehaviour:
@@ -1948,6 +1954,8 @@ MonoBehaviour:
     linkedMultiplierFloatStats: []
     linkedAmplifierFloatStats: []
   onChanged:
+    _PersistentCalls: []
+  onChangedCompared:
     _PersistentCalls: []
   statId: {fileID: 11400000, guid: 40520ec07f47a0040b209cd8f1c46e67, type: 2}
 --- !u!1 &5585846735198710166
@@ -2589,6 +2597,8 @@ MonoBehaviour:
     linkedAmplifierFloatStats: []
   onChanged:
     _PersistentCalls: []
+  onChangedCompared:
+    _PersistentCalls: []
   statId: {fileID: 11400000, guid: 069e21806a803f94185a60b4a929e211, type: 2}
 --- !u!1 &6099879094183360088
 GameObject:
@@ -3083,6 +3093,8 @@ MonoBehaviour:
     linkedMultiplierFloatStats: []
     linkedAmplifierFloatStats: []
   onChanged:
+    _PersistentCalls: []
+  onChangedCompared:
     _PersistentCalls: []
   statId: {fileID: 11400000, guid: 08280c0b83b2d57429f908546dd2c24c, type: 2}
 --- !u!1 &6456268711412279959
@@ -3597,6 +3609,8 @@ MonoBehaviour:
     linkedMultiplierFloatStats: []
     linkedAmplifierFloatStats: []
   onChanged:
+    _PersistentCalls: []
+  onChangedCompared:
     _PersistentCalls: []
   statId: {fileID: 11400000, guid: 2f1bb4b786f41f84aaf92aa2dcc8e3f8, type: 2}
 --- !u!1001 &2586104473089841821
